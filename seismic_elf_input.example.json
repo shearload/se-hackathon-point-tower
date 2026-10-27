@@ -1,0 +1,101 @@
+{
+  "format_version": "1.0",
+  "standard": "ASCE/SEI 7-22",
+  "risk_category": "III",
+  "site": {
+    "description": "Union Square, San Francisco, CA (assumed point)",
+    "latitude_deg": 37.7879,
+    "longitude_deg": -122.4074,
+    "site_class": "D",
+    "seismic_design_category": "D",
+    "mapped_parameters": {
+      "Ss_g": 1.5,
+      "S1_g": 0.6,
+      "SDS_g": 1.11,
+      "SD1_g": 1.13,
+      "TL_s": 12.0,
+      "source": "USGS ASCE 7-22 design-map service"
+    }
+  },
+  "building": {
+    "story_count": 80,
+    "typical_story_height_ft": 12.0,
+    "floor_plate": {
+      "length_ft": 80.0,
+      "width_ft": 80.0,
+      "area_sqft": 6400.0,
+      "perimeter_ft": 320.0
+    },
+    "floor_schedule": [
+      {
+        "first_floor_index": 1,
+        "last_floor_index": 80,
+        "story_height_ft": 12.0,
+        "floor_type": "typical",
+        "same_as_typical_floor": true
+      }
+    ]
+  },
+  "seismic_weight": {
+    "floor_self_weight_psf": 75.0,
+    "superimposed_dead_load_psf": 15.0,
+    "facade_weight_psf": 15.0,
+    "facade_weight_basis": "exterior wall surface area per story",
+    "live_load_contribution_psf": 0.0,
+    "live_load_contribution_note": "Set to zero because no live-load participation was provided; revise if applicable.",
+    "calculation_notes": [
+      "Floor area x (self-weight + superimposed dead load) gives floor weight.",
+      "Facade perimeter x story height x facade weight gives facade weight per story."
+    ]
+  },
+  "seismic_force_resisting_system": {
+    "system_type": "building_frame_system_special_reinforced_concrete_shear_walls",
+    "R": 6.0,
+    "Cd": 5.0,
+    "Omega0": 2.5,
+    "Ie": 1.25,
+    "table_reference": "ASCE 7-22 Table 12.2-1, row B.4",
+    "height_limit_ft_for_sdc_D": 160.0
+  },
+  "analysis": {
+    "procedure": "equivalent_lateral_force",
+    "seismic_response_coefficient_method": 2,
+    "period_method": "use_approximate_period_Ta_directly",
+    "period_parameters": {
+      "Ct": 0.02,
+      "exponent_x": 0.75,
+      "equation": "Ta = Ct * hn^x",
+      "code_reference": "ASCE 7-22 Section 12.8.2.1, Equation 12.8-8, Table 12.8-2"
+    },
+    "vertical_distribution": {
+      "exponent_k": 2.0,
+      "code_reference": "ASCE 7-22 Section 12.8.3, Equations 12.8-12 and 12.8-13",
+      "concentrated_roof_force": false
+    },
+    "accidental_torsion": {
+      "include": true,
+      "eccentricity_ratio": 0.05,
+      "apply_each_sign": true,
+      "code_reference": "ASCE 7-22 Section 12.8.4.2.2",
+      "torsional_amplification_Ax": 1.0,
+      "torsional_amplification_note": "Placeholder only; determine Ax if required by Section 12.8.4.3 based on torsional irregularity analysis."
+    }
+  },
+  "output_contract": {
+    "format": "json",
+    "description": "Write JSON to stdout mapping floor index to story force magnitude in kips.",
+    "example": {
+      "1": 0.0199,
+      "2": 0.0796,
+      "80": 127.3325
+    },
+    "include_accidental_torsion_in_output": false,
+    "force_unit": "kip"
+  },
+  "limitations": [
+    "Illustrative calculation inputs; not a sealed or project-specific design.",
+    "The selected system's ASCE 7-22 Table 12.2-1 height limit for SDC D is 160 ft, while this building is 960 ft. The specified system is therefore outside the listed height limit.",
+    "Only the stated floor dead loads and facade weight are included in seismic weight; live-load contribution is zero unless supplied.",
+    "No concentrated roof force is included; ASCE 7-22 Section 12.8.3 distributes Fx using Equations 12.8-12 and 12.8-13."
+  ]
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tower Floorplate 3D</title>
+  <script type="importmap">
+    { "imports": { "three": "./three.module.js" } }
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; font: 13px 'Segoe UI', sans-serif; color: #25312f; }
+    #scene { position: absolute; inset: 0; }
+    #legend { position: absolute; left: 16px; top: 14px; background: rgba(255,255,255,.91); border: 1px solid #d9e0de; border-radius: 5px; padding: 11px 14px; box-shadow: 0 2px 10px #26333012; }
+    .row { display: flex; gap: 8px; align-items: center; margin: 5px 0; }
+    .swatch { width: 13px; height: 13px; border-radius: 2px; }
+    #view-tools { position: absolute; top: 14px; right: 16px; display: flex; gap: 6px; }
+    #load-labels { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 3; }
+    .load-label { position: absolute; transform: translate(-50%, -50%); white-space: nowrap; padding: 2px 4px; border-radius: 4px; font-size: 9px; font-weight: 600; background: rgba(255,255,255,.93); border: 1px solid #d7dfdc; box-shadow: 0 1px 4px #1d292522; }
+    .load-label.positive { color: #9e4226; }
+    .load-label.negative { color: #365f8b; }
+    button { border: 1px solid #cbd5d2; background: rgba(255,255,255,.94); color: #25312f; border-radius: 4px; padding: 7px 10px; cursor: pointer; }
+    button:hover { background: white; border-color: #176b67; }
+    #empty { position: absolute; inset: 0; display: grid; place-items: center; color: #66736f; pointer-events: none; }
+  </style>
+</head>
+<body>
+  <div id="scene"></div>
+  <div id="legend"><strong>Tower structure</strong>
+    <div class="row"><span class="swatch" style="background:#176b67"></span>Shear walls</div>
+    <div class="row"><span class="swatch" style="background:#d49b42"></span>Columns</div>
+    <div class="row"><span class="swatch" style="background:#547fa2"></span>Beams / outriggers</div>
+    <div class="row"><span class="swatch" style="background:#8daeb0"></span>Diaphragm</div>
+    <div class="row"><span class="swatch" style="background:#c45532"></span>Global-X loads</div>
+  </div>
+  <div id="load-labels"></div>
+  <div id="view-tools"><button id="fit">Fit view</button><button id="toggle-plates">Hide diaphragms</button></div>
+  <div id="empty">Open a floorplate JSON file to display a model.</div>
+  <script>
+    window.addEventListener('error', event => window.chrome.webview.postMessage('viewer-error:' + (event.message || 'Unknown viewer error')));
+    window.addEventListener('unhandledrejection', event => window.chrome.webview.postMessage('viewer-error:' + (event.reason?.message || String(event.reason))));
+  </script>
+  <script type="module" src="./viewer.js"></script>
+</body>
+</html>

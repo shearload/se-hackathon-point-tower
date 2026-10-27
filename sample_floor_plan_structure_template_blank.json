@@ -1,0 +1,895 @@
+{
+  "format_version": "1.0",
+  "units": {
+    "coordinates": "ft",
+    "floor_height": "ft",
+    "section_dimensions": "in",
+    "Fy": "psi",
+    "E": "psi"
+  },
+  "floor_sequence": [
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    },
+    {
+      "type": "A",
+      "floor_height": 15
+    }
+  ],
+  "floor_types": {
+    "A": {
+      "structural_nodes": [
+        {
+          "id": "C1",
+          "x": 16.24015748031496,
+          "y": 155.18372703412072
+        },
+        {
+          "id": "C2",
+          "x": 33.13648293963254,
+          "y": 155.18372703412072
+        },
+        {
+          "id": "C3",
+          "x": 51.181102362204726,
+          "y": 155.18372703412072
+        },
+        {
+          "id": "C4",
+          "x": 69.2257217847769,
+          "y": 155.18372703412072
+        },
+        {
+          "id": "C5",
+          "x": 86.12204724409449,
+          "y": 155.18372703412072
+        },
+        {
+          "id": "C6",
+          "x": 16.24015748031496,
+          "y": 137.95931758530182
+        },
+        {
+          "id": "C7",
+          "x": 33.13648293963254,
+          "y": 137.95931758530182
+        },
+        {
+          "id": "C8",
+          "x": 51.181102362204726,
+          "y": 137.95931758530182
+        },
+        {
+          "id": "C9",
+          "x": 69.2257217847769,
+          "y": 137.95931758530182
+        },
+        {
+          "id": "C10",
+          "x": 86.12204724409449,
+          "y": 137.95931758530182
+        },
+        {
+          "id": "C11",
+          "x": 0,
+          "y": 122.70341207349081
+        },
+        {
+          "id": "C12",
+          "x": 16.24015748031496,
+          "y": 122.70341207349081
+        },
+        {
+          "id": "C13",
+          "x": 51.181102362204726,
+          "y": 122.70341207349081
+        },
+        {
+          "id": "C14",
+          "x": 86.12204724409449,
+          "y": 122.70341207349081
+        },
+        {
+          "id": "C15",
+          "x": 102.36220472440945,
+          "y": 122.70341207349081
+        },
+        {
+          "id": "C16",
+          "x": 0,
+          "y": 104.65879265091863
+        },
+        {
+          "id": "C17",
+          "x": 102.36220472440945,
+          "y": 104.65879265091863
+        },
+        {
+          "id": "C18",
+          "x": 0,
+          "y": 86.61417322834646
+        },
+        {
+          "id": "C19",
+          "x": 102.36220472440945,
+          "y": 86.61417322834646
+        },
+        {
+          "id": "C20",
+          "x": 0,
+          "y": 68.56955380577428
+        },
+        {
+          "id": "C21",
+          "x": 102.36220472440945,
+          "y": 68.56955380577428
+        },
+        {
+          "id": "C22",
+          "x": 0,
+          "y": 50.5249343832021
+        },
+        {
+          "id": "C23",
+          "x": 0,
+          "y": 32.48031496062992
+        },
+        {
+          "id": "C24",
+          "x": 33.13648293963254,
+          "y": 32.48031496062992
+        },
+        {
+          "id": "C25",
+          "x": 69.2257217847769,
+          "y": 32.48031496062992
+        },
+        {
+          "id": "C26",
+          "x": 102.36220472440945,
+          "y": 32.48031496062992
+        },
+        {
+          "id": "C27",
+          "x": 16.24015748031496,
+          "y": 14.435695538057741
+        },
+        {
+          "id": "C28",
+          "x": 86.12204724409449,
+          "y": 14.435695538057741
+        },
+        {
+          "id": "C29",
+          "x": 33.13648293963254,
+          "y": 0
+        },
+        {
+          "id": "C30",
+          "x": 69.2257217847769,
+          "y": 0
+        },
+        {
+          "id": "S1",
+          "x": null,
+          "y": null
+        },
+        {
+          "id": "S2",
+          "x": null,
+          "y": null
+        },
+        {
+          "id": "S3",
+          "x": null,
+          "y": null
+        },
+        {
+          "id": "S4",
+          "x": null,
+          "y": null
+        }
+      ],
+      "structural_elements": [
+        {
+          "id": "COL1",
+          "type": "column",
+          "nodes": [
+            "C1"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL2",
+          "type": "column",
+          "nodes": [
+            "C2"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL3",
+          "type": "column",
+          "nodes": [
+            "C3"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL4",
+          "type": "column",
+          "nodes": [
+            "C4"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL5",
+          "type": "column",
+          "nodes": [
+            "C5"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL6",
+          "type": "column",
+          "nodes": [
+            "C6"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL7",
+          "type": "column",
+          "nodes": [
+            "C7"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL8",
+          "type": "column",
+          "nodes": [
+            "C8"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL9",
+          "type": "column",
+          "nodes": [
+            "C9"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL10",
+          "type": "column",
+          "nodes": [
+            "C10"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL11",
+          "type": "column",
+          "nodes": [
+            "C11"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL12",
+          "type": "column",
+          "nodes": [
+            "C12"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL13",
+          "type": "column",
+          "nodes": [
+            "C13"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL14",
+          "type": "column",
+          "nodes": [
+            "C14"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL15",
+          "type": "column",
+          "nodes": [
+            "C15"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL16",
+          "type": "column",
+          "nodes": [
+            "C16"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL17",
+          "type": "column",
+          "nodes": [
+            "C17"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL18",
+          "type": "column",
+          "nodes": [
+            "C18"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL19",
+          "type": "column",
+          "nodes": [
+            "C19"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL20",
+          "type": "column",
+          "nodes": [
+            "C20"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL21",
+          "type": "column",
+          "nodes": [
+            "C21"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL22",
+          "type": "column",
+          "nodes": [
+            "C22"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL23",
+          "type": "column",
+          "nodes": [
+            "C23"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL24",
+          "type": "column",
+          "nodes": [
+            "C24"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL25",
+          "type": "column",
+          "nodes": [
+            "C25"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL26",
+          "type": "column",
+          "nodes": [
+            "C26"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL27",
+          "type": "column",
+          "nodes": [
+            "C27"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL28",
+          "type": "column",
+          "nodes": [
+            "C28"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL29",
+          "type": "column",
+          "nodes": [
+            "C29"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "COL30",
+          "type": "column",
+          "nodes": [
+            "C30"
+          ],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": null,
+          "type": "shear_wall",
+          "nodes": null,
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        }
+      ],
+      "floor_plate": {
+        "boundary_nodes": [
+          {
+            "id": null,
+            "x": null,
+            "y": null
+          }
+        ],
+        "boundary_loop": []
+      },
+      "identified_wall_groups": [
+        {
+          "id": "PERIMETER_WALLS",
+          "type": "wall",
+          "node_ids": [],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "INTERIOR_WALLS",
+          "type": "wall",
+          "node_ids": [],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        },
+        {
+          "id": "CONCRETE_CORE",
+          "type": "shear_wall",
+          "node_ids": [],
+          "material_name": null,
+          "section_name": null,
+          "Fy": null,
+          "E": null,
+          "poisson_ratio": null,
+          "section_dims": {
+            "width": null,
+            "depth": null
+          }
+        }
+      ],
+      "floor_openings": [
+        {
+          "id": "OPN-01",
+          "source_label": "OPEN TO BELOW - west",
+          "boundary_node_ids": [],
+          "boundary_loop": [],
+          "start_floor": null,
+          "end_floor": null
+        },
+        {
+          "id": "OPN-02",
+          "source_label": "OPEN TO BELOW - east",
+          "boundary_node_ids": [],
+          "boundary_loop": [],
+          "start_floor": null,
+          "end_floor": null
+        }
+      ],
+      "diaphragm": {
+        "type": null,
+        "material_name": null,
+        "section_name": null,
+        "thickness": null,
+        "mesh_size": null,
+        "maximum_boundary_node_spacing": 5
+      }
+    }
+  },
+  "model_metadata": {
+    "floor_count": 25,
+    "floor_height_ft": 15,
+    "sequence_total_height_ft": 375,
+    "base_elevation_ft": null,
+    "roof_or_top_termination_ft": null,
+    "typical_plan_repeats_on_all_floors": true,
+    "local_coordinate_origin": "Grid A / Grid 2",
+    "positive_x_direction": "Grid A toward Grid G",
+    "positive_y_direction": "Grid 2 toward Grid 11",
+    "plan_bounding_extents_ft": {
+      "x": 106.62729658792651,
+      "y": 157.48031496062993
+    },
+    "plan_bounding_extents_mm": {
+      "x": 32500,
+      "y": 48000
+    },
+    "boundary_shape": "curved perimeter; exact polygon coordinates blank",
+    "maximum_floor_boundary_node_spacing_ft": 5,
+    "target_software": null,
+    "target_software_version": null
+  },
+  "template_notes": {
+    "blank_value_convention": "null means the engineer must supply the value; empty arrays are lists to be populated. Placeholder entries marked by null IDs are templates and must be duplicated or replaced as needed.",
+    "confirmed_data": "25 floor-sequence entries at 15 ft each; 30 column symbols mapped to labeled grid intersections; plan extents transcribed as 32,500 mm by 48,000 mm.",
+    "coordinate_note": "Column x/y values are in ft relative to Grid A / Grid 2 using plan grid dimension chains; confirm local origin and orientation before use.",
+    "schema_limitations": "The supplied example schema supports structural_nodes, structural_elements, and floor_plate boundary nodes/loop. It has no native slab/diaphragm shell properties or floor-opening polygons; floor_openings and diaphragm are explicit extension fields pending target schema approval.",
+    "wall_note": "Wall group labels follow the confirmed visual identifications. Exact wall segments, core perimeter coordinates, thicknesses, and materials remain blank.",
+    "column_note": "Column section and material properties remain blank. Column nodes are plan locations; explicit vertical top/bottom connectivity is not represented by the example schema."
+  }
+}

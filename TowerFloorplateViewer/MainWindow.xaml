@@ -1,0 +1,245 @@
+<Window x:Class="TowerFloorplateViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        Title="Tower Floorplate Viewer" Height="850" Width="1320" MinHeight="620" MinWidth="900"
+        Background="#F4F5F1" Foreground="#26363B">
+  <Window.Resources>
+    <Style x:Key="HeaderActionButton" TargetType="Button">
+      <Setter Property="Padding" Value="13,6" />
+      <Setter Property="Margin" Value="0,0,8,0" />
+      <Setter Property="Background" Value="#004050" />
+      <Setter Property="Foreground" Value="White" />
+      <Setter Property="BorderBrush" Value="#004050" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="Cursor" Value="Hand" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="HeaderButtonBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="4" Padding="{TemplateBinding Padding}">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="HeaderButtonBorder" Property="Background" Value="#00A3AD" />
+                <Setter TargetName="HeaderButtonBorder" Property="BorderBrush" Value="#00A3AD" />
+              </Trigger>
+              <Trigger Property="IsPressed" Value="True">
+                <Setter TargetName="HeaderButtonBorder" Property="Background" Value="#8B9064" />
+                <Setter TargetName="HeaderButtonBorder" Property="BorderBrush" Value="#8B9064" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <Style x:Key="FutureToolButton" TargetType="Button">
+      <Setter Property="IsEnabled" Value="False" />
+      <Setter Property="MinHeight" Value="34" />
+      <Setter Property="Margin" Value="0,3,0,3" />
+      <Setter Property="Padding" Value="9,6" />
+      <Setter Property="HorizontalContentAlignment" Value="Left" />
+      <Setter Property="Foreground" Value="#63666A" />
+      <Setter Property="FontSize" Value="12" />
+      <Setter Property="ToolTip" Value="Planned control · no action yet" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="ButtonBorder" Background="#FBFCFC" BorderBrush="#D5DEDB" BorderThickness="1" CornerRadius="4" Padding="{TemplateBinding Padding}">
+              <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="ButtonBorder" Property="Opacity" Value="0.92" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <Style x:Key="FutureToolIconButton" TargetType="Button">
+      <Setter Property="IsEnabled" Value="False" />
+      <Setter Property="Width" Value="34" />
+      <Setter Property="Height" Value="32" />
+      <Setter Property="Margin" Value="0,0,4,0" />
+      <Setter Property="Padding" Value="2" />
+      <Setter Property="HorizontalContentAlignment" Value="Center" />
+      <Setter Property="VerticalContentAlignment" Value="Center" />
+      <Setter Property="Foreground" Value="#63666A" />
+      <Setter Property="FontSize" Value="17" />
+      <Setter Property="ToolTipService.ShowDuration" Value="30000" />
+      <Setter Property="ToolTipService.ShowOnDisabled" Value="True" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="IconBorder" Background="#FBFCFC" BorderBrush="#BFC6B1" BorderThickness="1" CornerRadius="4">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="IconBorder" Property="Opacity" Value="0.92" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <Style x:Key="FutureViewButton" TargetType="Button" BasedOn="{StaticResource FutureToolButton}">
+      <Setter Property="MinWidth" Value="82" />
+      <Setter Property="MinHeight" Value="30" />
+      <Setter Property="HorizontalContentAlignment" Value="Center" />
+      <Setter Property="Margin" Value="0" />
+      <Setter Property="Padding" Value="12,5" />
+    </Style>
+    <Style x:Key="SelectedFutureViewButton" TargetType="Button" BasedOn="{StaticResource FutureViewButton}">
+      <Setter Property="Foreground" Value="White" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border Background="#004050" BorderBrush="#004050" BorderThickness="1" CornerRadius="4" Padding="{TemplateBinding Padding}">
+              <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+            </Border>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <Style x:Key="DisplayModeButton" TargetType="ToggleButton">
+      <Setter Property="Width" Value="36" />
+      <Setter Property="Height" Value="34" />
+      <Setter Property="Margin" Value="2,0" />
+      <Setter Property="Padding" Value="4" />
+      <Setter Property="Foreground" Value="#63666A" />
+      <Setter Property="Background" Value="White" />
+      <Setter Property="BorderBrush" Value="#D5DEDB" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="ToggleButton">
+            <Border x:Name="ModeBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="4">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsChecked" Value="True">
+                <Setter TargetName="ModeBorder" Property="Background" Value="#00A3AD" />
+                <Setter TargetName="ModeBorder" Property="BorderBrush" Value="#00A3AD" />
+                <Setter Property="Foreground" Value="White" />
+              </Trigger>
+              <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="ModeBorder" Property="Opacity" Value="0.55" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+  </Window.Resources>
+  <DockPanel>
+    <StackPanel DockPanel.Dock="Top" Background="White">
+      <Border Background="#FFFFFF" BorderBrush="#D5DFD9" BorderThickness="0,0,0,1" Padding="14,7">
+        <DockPanel LastChildFill="True">
+          <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" VerticalAlignment="Center">
+            <Border Background="White" CornerRadius="4" Padding="5,2" Margin="0,0,10,0">
+              <wv2:WebView2 x:Name="LogoViewer" Width="112" Height="34" />
+            </Border>
+          </StackPanel>
+          <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <Button x:Name="SelectStartingValuesButton" Style="{StaticResource HeaderActionButton}" Content="Select Starting Values" Click="SelectStartingValues_Click" ToolTip="Convert a starting-values CSV to a tower JSON model." />
+            <Button Style="{StaticResource HeaderActionButton}" Content="Open JSON…" Click="Open_Click" />
+            <Button x:Name="ImportLoadsButton" Style="{StaticResource HeaderActionButton}" Content="Import Loads JSON…" Click="ImportLoads_Click" />
+            <Button x:Name="ImportResultsButton" Style="{StaticResource HeaderActionButton}" Content="Load Results JSON…" Click="ImportResults_Click" />
+            <TextBlock x:Name="DocumentNameText" Text="Tower: none" VerticalAlignment="Center" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" MaxWidth="190" Margin="0,0,12,0" />
+            <TextBlock x:Name="LoadInputNameText" Text="Loads: none" VerticalAlignment="Center" Foreground="#63666A" TextTrimming="CharacterEllipsis" MaxWidth="170" />
+          </StackPanel>
+        </DockPanel>
+      </Border>
+      <Border Background="#F7F8F5" BorderBrush="#D5DFD9" BorderThickness="0,0,0,1" Padding="14,6">
+        <DockPanel LastChildFill="False">
+          <TextBlock Text="VIEW" FontSize="10" FontWeight="Bold" Foreground="#63666A" VerticalAlignment="Center" Margin="0,0,12,0" />
+          <StackPanel Orientation="Horizontal">
+            <Button Style="{StaticResource FutureViewButton}" Content="Plans" />
+            <Button Style="{StaticResource FutureViewButton}" Content="Elevations" Margin="5,0,0,0" />
+            <Button Style="{StaticResource SelectedFutureViewButton}" Content="3D View" Margin="5,0,0,0" ToolTip="Current view" />
+          </StackPanel>
+          <TextBlock DockPanel.Dock="Right" Text="WORKSPACE TOOLS · PLANNED" FontSize="10" FontWeight="SemiBold" Foreground="#87938F" VerticalAlignment="Center" />
+        </DockPanel>
+      </Border>
+      <Border Background="#FFFFFF" BorderBrush="#D5DFD9" BorderThickness="0,0,0,1" Padding="12,6">
+        <DockPanel LastChildFill="False">
+          <TextBlock Text="DISPLAY" FontSize="10" FontWeight="Bold" Foreground="#63666A" VerticalAlignment="Center" Margin="0,0,8,0" />
+          <StackPanel x:Name="DisplayModePanel" Orientation="Horizontal" VerticalAlignment="Center">
+            <ToggleButton Style="{StaticResource DisplayModeButton}" Tag="default" IsChecked="True" Click="DisplayMode_Click" ToolTip="Default view">
+              <TextBlock Text="▦" FontSize="19" />
+            </ToggleButton>
+            <ToggleButton Style="{StaticResource DisplayModeButton}" Tag="loads" Click="DisplayMode_Click" ToolTip="Display loads">
+              <TextBlock Text="→" FontSize="22" />
+            </ToggleButton>
+            <ToggleButton Style="{StaticResource DisplayModeButton}" Tag="deformed" Click="DisplayMode_Click" ToolTip="Display deformed shape">
+              <TextBlock Text="⌁" FontSize="22" />
+            </ToggleButton>
+            <ToggleButton Style="{StaticResource DisplayModeButton}" Tag="colors" Click="DisplayMode_Click" ToolTip="Display result colors">
+              <TextBlock Text="◒" FontSize="19" />
+            </ToggleButton>
+          </StackPanel>
+          <TextBlock Text="CASE" FontSize="10" FontWeight="Bold" Foreground="#63666A" VerticalAlignment="Center" Margin="18,0,6,0" />
+          <ComboBox x:Name="CaseSelector" Width="150" Height="30" IsEnabled="False" SelectionChanged="AnalysisSelection_SelectionChanged" ToolTip="Analysis load case.">
+            <ComboBoxItem Content="Load results to select case" />
+          </ComboBox>
+          <TextBlock Text="GEOMETRY" FontSize="10" FontWeight="Bold" Foreground="#63666A" VerticalAlignment="Center" Margin="14,0,6,0" />
+          <ComboBox x:Name="GeometrySelector" Width="140" Height="30" IsEnabled="False" DisplayMemberPath="Label" SelectedValuePath="Id" SelectionChanged="AnalysisSelection_SelectionChanged" ToolTip="Select the base model or an optimizer geometry option.">
+            <ComboBoxItem Content="Load results" />
+          </ComboBox>
+          <TextBlock Text="COLOR BY" FontSize="10" FontWeight="Bold" Foreground="#63666A" VerticalAlignment="Center" Margin="16,0,6,0" />
+          <ComboBox x:Name="ColorMetricComboBox" Width="180" Height="30" SelectedIndex="3" ToolTip="Choose a scalar result to color structural elements.">
+            <ComboBoxItem Content="Member DCR" />
+            <ComboBoxItem Content="Story drift" />
+            <ComboBoxItem Content="Node displacement (SRSS)" />
+            <ComboBoxItem Content="Element node SRSS sum" />
+          </ComboBox>
+        </DockPanel>
+      </Border>
+      <Border Background="#EEF5F3" BorderBrush="#D5DFD9" BorderThickness="0,0,0,1" Padding="12,5">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+          <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <TextBlock Text="FLOOR PLANS" FontSize="9" FontWeight="Bold" Foreground="#004050" VerticalAlignment="Center" Margin="0,0,7,0" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="✎" ToolTip="Edit floor plates / plan" AutomationProperties.Name="Edit floor plates / plan" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="▤" ToolTip="Apply edits to multiple floor plans" AutomationProperties.Name="Apply edits to multiple floor plans" />
+
+            <Border Width="1" Height="26" Background="#88DBDF" Margin="7,0" />
+            <TextBlock Text="STRUCTURE" FontSize="9" FontWeight="Bold" Foreground="#004050" VerticalAlignment="Center" Margin="0,0,7,0" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="⌖" ToolTip="Edit element / floor plate connectivity and geometry" AutomationProperties.Name="Edit element / floor plate connectivity and geometry" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="▱" ToolTip="Change shear wall thickness / member sections" AutomationProperties.Name="Change shear wall thickness / member sections" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="ⓘ" ToolTip="Element properties on click" AutomationProperties.Name="Element properties on click" />
+
+            <Border Width="1" Height="26" Background="#88DBDF" Margin="7,0" />
+            <TextBlock Text="FLOORS" FontSize="9" FontWeight="Bold" Foreground="#004050" VerticalAlignment="Center" Margin="0,0,7,0" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="▦" ToolTip="Copy / array to multiple floors" AutomationProperties.Name="Copy / array to multiple floors" />
+
+            <Border Width="1" Height="26" Background="#88DBDF" Margin="7,0" />
+            <TextBlock Text="LOADS &amp; ANALYSIS" FontSize="9" FontWeight="Bold" Foreground="#004050" VerticalAlignment="Center" Margin="0,0,7,0" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="⇢" ToolTip="Input full-tower loads · wind / seismic / gravity" AutomationProperties.Name="Input full-tower loads · wind / seismic / gravity" />
+            <Button x:Name="RunAnalysisButton" Content="▶" IsEnabled="False" Click="RunAnalysis_Click" Width="34" Height="32" Margin="0,0,4,0" Padding="2" Background="#D4451D" Foreground="White" BorderBrush="#D4451D" ToolTip="Run Analysis · Load a tower model and load input before running." AutomationProperties.Name="Run Analysis" />
+            <Button Style="{StaticResource FutureToolIconButton}" Content="⚙" ToolTip="Run optimization" AutomationProperties.Name="Run optimization" />
+          </StackPanel>
+        </ScrollViewer>
+      </Border>
+    </StackPanel>
+    <Border DockPanel.Dock="Bottom" Background="#004050" BorderBrush="#004050" BorderThickness="0,1,0,0" Padding="14,8">
+      <DockPanel LastChildFill="True">
+        <TextBlock x:Name="AnalysisResultsPathText" DockPanel.Dock="Right" Text="" Foreground="#88DBDF" TextTrimming="CharacterEllipsis" MaxWidth="520" Margin="12,0,0,0" />
+        <TextBlock x:Name="StatusText" Text="Ready · coordinates in ft · member sections in in" Foreground="White" />
+      </DockPanel>
+    </Border>
+    <Grid Margin="12">
+      <Border CornerRadius="5" Background="#E7ECE9" ClipToBounds="True">
+        <wv2:WebView2 x:Name="Viewer" />
+      </Border>
+      <Border x:Name="LoadingOverlay" Background="#F4F5F1" CornerRadius="5">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="470">
+          <TextBlock x:Name="OverlayTitle" Text="Tower Floorplate Viewer" FontSize="24" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,10" />
+          <TextBlock x:Name="OverlayMessage" Text="Open a JSON model to inspect floor plates, core walls, columns, beams, and diaphragms in 3D." TextWrapping="Wrap" TextAlignment="Center" Foreground="#63666A" />
+        </StackPanel>
+      </Border>
+    </Grid>
+  </DockPanel>
+</Window>

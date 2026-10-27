@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">SWOOP — Shear Wall Outrigger Optimization Program</title>
+  <desc id="desc">A vertical tower with a centered shear-wall core, roof, outrigger levels, and contrasting X bracing.</desc>
+  <rect width="1200" height="360" fill="#FFFFFF"/>
+  <g transform="translate(58 34)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Perimeter columns and centered, narrow shear-wall core -->
+    <path d="M48 276V24M186 276V24" fill="none" stroke="#004050" stroke-width="12"/>
+    <rect x="103" y="24" width="28" height="252" rx="1" fill="#8B9064"/>
+    <!-- Roof/cap -->
+    <path d="M38 24H196" fill="none" stroke="#004050" stroke-width="12"/>
+    <!-- Outrigger levels, with two X-braced bays from core to each perimeter column -->
+    <path d="M48 102H103M131 102H186M48 166H103M131 166H186M48 230H103M131 230H186" fill="none" stroke="#D4451D" stroke-width="8"/>
+    <!-- Upper chords of the braced panels -->
+    <path d="M48 84H103M131 84H186M48 148H103M131 148H186M48 212H103M131 212H186" fill="none" stroke="#D4451D" stroke-width="6"/>
+    <path d="M76 84V106M158 84V106M76 148V170M158 148V170M76 212V234M158 212V234" fill="none" stroke="#00A3AD" stroke-width="4"/>
+    <path d="M50 84L74 106M74 84L50 106M78 84L101 106M101 84L78 106
+             M133 84L156 106M156 84L133 106M160 84L184 106M184 84L160 106
+             M50 148L74 170M74 148L50 170M78 148L101 170M101 148L78 170
+             M133 148L156 170M156 148L133 170M160 148L184 170M184 148L160 170
+             M50 212L74 234M74 212L50 234M78 212L101 234M101 212L78 234
+             M133 212L156 234M156 212L133 234M160 212L184 234M184 212L160 234" fill="none" stroke="#00A3AD" stroke-width="4"/>
+    <!-- Ground line meets both perimeter columns and the core -->
+    <path d="M28 276H206" fill="none" stroke="#004050" stroke-width="12"/>
+  </g>
+  <g font-family="Aptos, Arial, Helvetica, sans-serif">
+    <text x="330" y="201" font-size="142" font-weight="750" letter-spacing="8" fill="#004050">SWOOP</text>
+    <path d="M338 230H1050" stroke="#8B9064" stroke-width="7"/>
+    <text x="340" y="278" font-size="28" font-weight="600" letter-spacing="3.2" fill="#63666A">SHEAR WALL OUTRIGGER</text>
+    <text x="340" y="316" font-size="28" font-weight="600" letter-spacing="3.2" fill="#63666A">OPTIMIZATION PROGRAM</text>
+  </g>
+</svg>

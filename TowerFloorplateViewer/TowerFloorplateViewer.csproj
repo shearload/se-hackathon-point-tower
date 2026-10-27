@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TowerFloorplateViewer</AssemblyName>
+    <RootNamespace>TowerFloorplateViewer</RootNamespace>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3537.50" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Web\index.html" />
+    <EmbeddedResource Include="Web\viewer.js" />
+    <EmbeddedResource Include="Web\three.module.js" />
+    <EmbeddedResource Include="Web\three.core.js" />
+    <EmbeddedResource Include="Web\OrbitControls.js" />
+    <EmbeddedResource Include="Web\THREE-LICENSE.txt" />
+    <EmbeddedResource Include="Web\logo.html" />
+    <EmbeddedResource Include="..\swoop-logo-braced.svg" Link="Web\swoop-logo-braced.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\EXEs\**\*.exe"
+             Link="EXEs\%(RecursiveDir)%(Filename)%(Extension)"
+             ExcludeFromSingleFile="true"
+             CopyToOutputDirectory="PreserveNewest"
+             CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1857 @@
+{
+  "format_version": "1.0",
+  "units": {
+    "coordinates": "ft",
+    "floor_height": "ft",
+    "section_dimensions": "in",
+    "Fy": "psi",
+    "E": "psi"
+  },
+  "floor_sequence": [
+    {
+      "type": "OPT_TYPE_1",
+      "floor_height": 13.0
+    },
+    {
+      "type": "OPT_TYPE_2",
+      "floor_height": 13.0,
+      "below_node_map": {
+        "S1": "S1",
+        "S2": "S2",
+        "S3": "S3",
+        "S4": "S4",
+        "C1": "C1",
+        "C2": "C2",
+        "C3": "C3",
+        "C4": "C4"
+      }
+    },
+    {
+      "type": "OPT_TYPE_2",
+      "floor_height": 13.0,
+      "below_node_map": {
+        "S1": "S1",
+        "S2": "S2",
+        "S3": "S3",
+        "S4": "S4",
+        "C1": "C1",
+        "C2": "C2",
+        "C3": "C3",
+        "C4": "C4"
+      }
+    },
+    {
+      "type": "OPT_TYPE_1",
+      "floor_height": 13.0,
+      "below_node_map": {
+        "S1": "S1",
+        "S2": "S2",
+        "S3": "S3",
+        "S4": "S4",
+        "C1": "C1",
+        "C2": "C2",
+        "C3": "C3",
+        "C4": "C4"
+      }
+    }
+  ],
+  "floor_types": {
+    "OPT_TYPE_1": {
+      "structural_nodes": [
+        {
+          "id": "S1",
+          "x": -10.0,
+          "y": -10.0
+        },
+        {
+          "id": "S2",
+          "x": 10.0,
+          "y": -10.0
+        },
+        {
+          "id": "S3",
+          "x": 10.0,
+          "y": 10.0
+        },
+        {
+          "id": "S4",
+          "x": -10.0,
+          "y": 10.0
+        },
+        {
+          "id": "C1",
+          "x": -17.0710678,
+          "y": -17.0710678
+        },
+        {
+          "id": "C2",
+          "x": 17.0710678,
+          "y": -17.0710678
+        },
+        {
+          "id": "C3",
+          "x": 17.0710678,
+          "y": 17.0710678
+        },
+        {
+          "id": "C4",
+          "x": -17.0710678,
+          "y": 17.0710678
+        }
+      ],
+      "structural_elements": [
+        {
+          "id": "W1",
+          "type": "shear_wall",
+          "nodes": [
+            "S1",
+            "S2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "W2",
+          "type": "shear_wall",
+          "nodes": [
+            "S2",
+            "S3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "W3",
+          "type": "shear_wall",
+          "nodes": [
+            "S3",
+            "S4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "W4",
+          "type": "shear_wall",
+          "nodes": [
+            "S4",
+            "S1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "COL1",
+          "type": "column",
+          "nodes": [
+            "C1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "COL2",
+          "type": "column",
+          "nodes": [
+            "C2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "COL3",
+          "type": "column",
+          "nodes": [
+            "C3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "COL4",
+          "type": "column",
+          "nodes": [
+            "C4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "B1",
+          "type": "beam",
+          "nodes": [
+            "S1",
+            "C1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Beam-18x48in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 18,
+            "depth": 48
+          }
+        },
+        {
+          "id": "B2",
+          "type": "beam",
+          "nodes": [
+            "S2",
+            "C2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Beam-18x48in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 18,
+            "depth": 48
+          }
+        },
+        {
+          "id": "B3",
+          "type": "beam",
+          "nodes": [
+            "S3",
+            "C3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Beam-18x48in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 18,
+            "depth": 48
+          }
+        },
+        {
+          "id": "B4",
+          "type": "beam",
+          "nodes": [
+            "S4",
+            "C4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Beam-18x48in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 18,
+            "depth": 48
+          }
+        }
+      ],
+      "floor_plate": {
+        "boundary_nodes": [
+          {
+            "id": "P1",
+            "x": -40.0,
+            "y": -40.0
+          },
+          {
+            "id": "P2",
+            "x": 40.0,
+            "y": -40.0
+          },
+          {
+            "id": "P3",
+            "x": 40.0,
+            "y": 40.0
+          },
+          {
+            "id": "P4",
+            "x": -40.0,
+            "y": 40.0
+          }
+        ],
+        "boundary_loop": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      }
+    },
+    "OPT_TYPE_2": {
+      "structural_nodes": [
+        {
+          "id": "S1",
+          "x": -10.0,
+          "y": -10.0
+        },
+        {
+          "id": "S2",
+          "x": 10.0,
+          "y": -10.0
+        },
+        {
+          "id": "S3",
+          "x": 10.0,
+          "y": 10.0
+        },
+        {
+          "id": "S4",
+          "x": -10.0,
+          "y": 10.0
+        },
+        {
+          "id": "C1",
+          "x": -17.0710678,
+          "y": -17.0710678
+        },
+        {
+          "id": "C2",
+          "x": 17.0710678,
+          "y": -17.0710678
+        },
+        {
+          "id": "C3",
+          "x": 17.0710678,
+          "y": 17.0710678
+        },
+        {
+          "id": "C4",
+          "x": -17.0710678,
+          "y": 17.0710678
+        }
+      ],
+      "structural_elements": [
+        {
+          "id": "W1",
+          "type": "shear_wall",
+          "nodes": [
+            "S1",
+            "S2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "W2",
+          "type": "shear_wall",
+          "nodes": [
+            "S2",
+            "S3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "W3",
+          "type": "shear_wall",
+          "nodes": [
+            "S3",
+            "S4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "W4",
+          "type": "shear_wall",
+          "nodes": [
+            "S4",
+            "S1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 240
+          }
+        },
+        {
+          "id": "COL1",
+          "type": "column",
+          "nodes": [
+            "C1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "COL2",
+          "type": "column",
+          "nodes": [
+            "C2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "COL3",
+          "type": "column",
+          "nodes": [
+            "C3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "COL4",
+          "type": "column",
+          "nodes": [
+            "C4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-24x24in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 24,
+            "depth": 24
+          }
+        },
+        {
+          "id": "O1",
+          "type": "outrigger",
+          "nodes": [
+            "S1",
+            "C1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "OutriggerWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 120
+          }
+        },
+        {
+          "id": "O2",
+          "type": "outrigger",
+          "nodes": [
+            "S2",
+            "C2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "OutriggerWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 120
+          }
+        },
+        {
+          "id": "O3",
+          "type": "outrigger",
+          "nodes": [
+            "S3",
+            "C3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "OutriggerWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 120
+          }
+        },
+        {
+          "id": "O4",
+          "type": "outrigger",
+          "nodes": [
+            "S4",
+            "C4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "OutriggerWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 120
+          }
+        }
+      ],
+      "floor_plate": {
+        "boundary_nodes": [
+          {
+            "id": "P1",
+            "x": -40.0,
+            "y": -40.0
+          },
+          {
+            "id": "P2",
+            "x": 40.0,
+            "y": -40.0
+          },
+          {
+            "id": "P3",
+            "x": 40.0,
+            "y": 40.0
+          },
+          {
+            "id": "P4",
+            "x": -40.0,
+            "y": 40.0
+          }
+        ],
+        "boundary_loop": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      }
+    }
+  },
+  "optimization_results": {
+    "schema_version": "1.0",
+    "units": {
+      "length": "ft",
+      "displacement": "in",
+      "force": "kip",
+      "moment": "kip*ft",
+      "stress": "ksi",
+      "mass": "slug",
+      "polar_mass": "slug*ft^2",
+      "volume": "ft^3",
+      "time": "s",
+      "rotation": "rad",
+      "drift": "ratio",
+      "force_vector": "[kip, kip, kip, kip*ft, kip*ft, kip*ft]",
+      "displacement_vector": "[in, in, in, rad, rad, rad]",
+      "lateral_vector": "[kip, kip, kip*ft]",
+      "shell_section_resultants": "[kip/ft, kip/ft, kip/ft, kip, kip, kip, kip/ft, kip/ft]"
+    },
+    "geometric_nonlinearity": false,
+    "design_adequacy": "not_evaluated",
+    "coverage": {
+      "attempted": 3,
+      "successful": 3,
+      "failed": 0,
+      "space_size": 3
+    },
+    "selected_candidate_id": "floors_2",
+    "model_candidate_id": "floors_2",
+    "response_basis": "Total response including gravity; raw elastic drift ratios, without Cd/Ie amplification.",
+    "base": {
+      "floor_id": "F0",
+      "floor_number": 0,
+      "elevation_ft": 0.0,
+      "ux_in": 0.0,
+      "uy_in": 0.0,
+      "rz_rad": 0.0
+    },
+    "candidates": {
+      "none": {
+        "candidate_id": "none",
+        "starts": [],
+        "group_count": 0,
+        "is_pareto": true,
+        "occupied_stories": [],
+        "metrics": {
+          "material_volume_ft3": 5951.999998389084,
+          "max_drift_ratio": 2.02646128210001e-05,
+          "max_roof_displacement_in": 0.011569883983391692,
+          "governing": {
+            "case": "WIND_Y",
+            "floor_id": "F3"
+          }
+        },
+        "cases": {
+          "GRAVITY": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": -2.9085749868972195e-19,
+                "uy_in": -2.0195800105273317e-19,
+                "rz_rad": -1.996478195177265e-21,
+                "centroid_drift_x": -1.8644711454469355e-21,
+                "centroid_drift_y": -1.2946025708508537e-21,
+                "max_abs_drift_x": 8.007480976761597e-21,
+                "max_abs_drift_y": 7.437612402165516e-21,
+                "max_drift_resultant": 1.0928761587574557e-20,
+                "displacement_resultant_in": 3.54097611871723e-19,
+                "centroid_story_displacement_x_in": -2.9085749868972195e-19,
+                "centroid_story_displacement_y_in": -2.0195800105273317e-19,
+                "max_story_displacement_resultant_in": 1.704886807661631e-18
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 5.481756944244366e-20,
+                "uy_in": -9.77210947321062e-19,
+                "rz_rad": -6.563771514280657e-22,
+                "centroid_drift_x": 2.215865821360036e-21,
+                "centroid_drift_y": -4.9695701683867225e-21,
+                "max_abs_drift_x": 6.339253648280649e-21,
+                "max_abs_drift_y": 9.092957995307335e-21,
+                "max_drift_resultant": 1.1084584878183898e-20,
+                "displacement_resultant_in": 9.787472612905258e-19,
+                "centroid_story_displacement_x_in": 3.4567506813216566e-19,
+                "centroid_story_displacement_y_in": -7.752529462683288e-19,
+                "max_story_displacement_resultant_in": 1.7291952409966881e-18
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 1.1849635037288068e-18,
+                "uy_in": -2.2241678618457823e-18,
+                "rz_rad": -2.259833150988937e-21,
+                "centroid_drift_x": 7.244525219784378e-21,
+                "centroid_drift_y": -7.993313554645642e-21,
+                "max_abs_drift_x": 1.2178235987663982e-20,
+                "max_abs_drift_y": 1.2927024322525246e-20,
+                "max_drift_resultant": 1.7759994076755582e-20,
+                "displacement_resultant_in": 2.520131183656297e-18,
+                "centroid_story_displacement_x_in": 1.1301459342863631e-18,
+                "centroid_story_displacement_y_in": -1.2469569145247203e-18,
+                "max_story_displacement_resultant_in": 2.7705590759738708e-18
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 4.451853879485774e-18,
+                "uy_in": -1.609175014582567e-18,
+                "rz_rad": 2.5387436086495454e-21,
+                "centroid_drift_x": 2.0941604972801072e-20,
+                "centroid_drift_y": 3.942261841430866e-21,
+                "max_abs_drift_x": 3.5706456540919474e-20,
+                "max_abs_drift_y": 1.8707113409549273e-20,
+                "max_drift_resultant": 4.0310136824703405e-20,
+                "displacement_resultant_in": 4.733756139879762e-18,
+                "centroid_story_displacement_x_in": 3.2668903757569673e-18,
+                "centroid_story_displacement_y_in": 6.149928472632151e-19,
+                "max_story_displacement_resultant_in": 6.288381344653732e-18
+              }
+            ]
+          },
+          "WIND_X": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 0.0024075333476268005,
+                "uy_in": -1.518533903195369e-19,
+                "rz_rad": -3.9107767127384955e-21,
+                "centroid_drift_x": 1.543290607453077e-05,
+                "centroid_drift_y": -9.734191687149802e-22,
+                "max_abs_drift_x": 1.5432906074530784e-05,
+                "max_abs_drift_y": 1.3006578284833428e-20,
+                "max_drift_resultant": 1.5432906074530784e-05,
+                "displacement_resultant_in": 0.0024075333476268005,
+                "centroid_story_displacement_x_in": 0.0024075333476268005,
+                "centroid_story_displacement_y_in": -1.518533903195369e-19,
+                "max_story_displacement_resultant_in": 0.0024075333476268022
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 0.005514275945152549,
+                "uy_in": -7.356586882040561e-19,
+                "rz_rad": -6.154027259845636e-21,
+                "centroid_drift_x": 1.9915016650806078e-05,
+                "centroid_drift_y": -3.7423416531058915e-21,
+                "max_abs_drift_x": 1.9915016650806085e-05,
+                "max_abs_drift_y": 1.0644651028820169e-20,
+                "max_drift_resultant": 1.9915016650806085e-05,
+                "displacement_resultant_in": 0.005514275945152549,
+                "centroid_story_displacement_x_in": 0.003106742597525748,
+                "centroid_story_displacement_y_in": -5.838052978845191e-19,
+                "max_story_displacement_resultant_in": 0.0031067425975257494
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 0.008675555545228563,
+                "uy_in": -8.677459047324103e-19,
+                "rz_rad": -7.515571247347204e-21,
+                "centroid_drift_x": 2.0264612821000093e-05,
+                "centroid_drift_y": -8.467129264638089e-22,
+                "max_abs_drift_x": 2.0264612821000093e-05,
+                "max_abs_drift_y": 5.036079041853251e-21,
+                "max_drift_resultant": 2.0264612821000093e-05,
+                "displacement_resultant_in": 0.008675555545228563,
+                "centroid_story_displacement_x_in": 0.0031612796000760144,
+                "centroid_story_displacement_y_in": -1.3208721652835419e-19,
+                "max_story_displacement_resultant_in": 0.0031612796000760144
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 0.011569883983391685,
+                "uy_in": -9.981241132686852e-20,
+                "rz_rad": -1.440339991110331e-20,
+                "centroid_drift_x": 1.8553387424122582e-05,
+                "centroid_drift_y": 4.922650598753472e-21,
+                "max_abs_drift_x": 1.8553387424122602e-05,
+                "max_abs_drift_y": 2.6115969564156874e-20,
+                "max_drift_resultant": 1.8553387424122602e-05,
+                "displacement_resultant_in": 0.011569883983391685,
+                "centroid_story_displacement_x_in": 0.002894328438163123,
+                "centroid_story_displacement_y_in": 7.679334934055418e-19,
+                "max_story_displacement_resultant_in": 0.002894328438163126
+              }
+            ]
+          },
+          "WIND_Y": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 3.167319039289248e-19,
+                "uy_in": 0.002407533347626801,
+                "rz_rad": 5.716005826915917e-22,
+                "centroid_drift_x": 2.0303327174931074e-21,
+                "centroid_drift_y": 1.5432906074530774e-05,
+                "max_abs_drift_x": 3.789103741159544e-21,
+                "max_abs_drift_y": 1.5432906074530777e-05,
+                "max_drift_resultant": 1.5432906074530777e-05,
+                "displacement_resultant_in": 0.002407533347626801,
+                "centroid_story_displacement_x_in": 3.167319039289248e-19,
+                "centroid_story_displacement_y_in": 0.002407533347626801,
+                "max_story_displacement_resultant_in": 0.0024075333476268014
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 2.454057377058375e-18,
+                "uy_in": 0.00551427594515255,
+                "rz_rad": -4.228395847643035e-21,
+                "centroid_drift_x": 1.3700804314932372e-20,
+                "centroid_drift_y": 1.991501665080608e-05,
+                "max_abs_drift_x": 2.847002410057737e-20,
+                "max_abs_drift_y": 1.99150166508061e-05,
+                "max_drift_resultant": 1.99150166508061e-05,
+                "displacement_resultant_in": 0.00551427594515255,
+                "centroid_story_displacement_x_in": 2.13732547312945e-18,
+                "centroid_story_displacement_y_in": 0.003106742597525749,
+                "max_story_displacement_resultant_in": 0.0031067425975257515
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 5.1092743042063715e-18,
+                "uy_in": 0.008675555545228563,
+                "rz_rad": -6.7268370061411006e-21,
+                "centroid_drift_x": 1.702062132787177e-20,
+                "centroid_drift_y": 2.0264612821000093e-05,
+                "max_abs_drift_x": 2.4708132584788895e-20,
+                "max_abs_drift_y": 2.02646128210001e-05,
+                "max_drift_resultant": 2.02646128210001e-05,
+                "displacement_resultant_in": 0.008675555545228563,
+                "centroid_story_displacement_x_in": 2.6552169271479964e-18,
+                "centroid_story_displacement_y_in": 0.0031612796000760144,
+                "max_story_displacement_resultant_in": 0.0031612796000760157
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 6.302343434323039e-18,
+                "uy_in": 0.011569883983391692,
+                "rz_rad": 3.9313460279937755e-21,
+                "centroid_drift_x": 7.647879039209405e-21,
+                "centroid_drift_y": 1.8553387424122616e-05,
+                "max_abs_drift_x": 4.044228837500902e-20,
+                "max_abs_drift_y": 1.855338742412265e-05,
+                "max_drift_resultant": 1.855338742412265e-05,
+                "displacement_resultant_in": 0.011569883983391692,
+                "centroid_story_displacement_x_in": 1.1930691301166673e-18,
+                "centroid_story_displacement_y_in": 0.002894328438163128,
+                "max_story_displacement_resultant_in": 0.0028943284381631336
+              }
+            ]
+          },
+          "SEISMIC_X": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 0.0017474098779681187,
+                "uy_in": 4.43677685128871e-19,
+                "rz_rad": 1.2469658496833432e-21,
+                "centroid_drift_x": 1.1201345371590503e-05,
+                "centroid_drift_y": 2.8440877251850702e-21,
+                "max_abs_drift_x": 1.1201345371590507e-05,
+                "max_abs_drift_y": 6.680905724210742e-21,
+                "max_drift_resultant": 1.1201345371590507e-05,
+                "displacement_resultant_in": 0.0017474098779681187,
+                "centroid_story_displacement_x_in": 0.0017474098779681187,
+                "centroid_story_displacement_y_in": 4.43677685128871e-19,
+                "max_story_displacement_resultant_in": 0.0017474098779681191
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 0.004354732368121802,
+                "uy_in": 6.217563165166209e-19,
+                "rz_rad": 7.929534037251738e-22,
+                "centroid_drift_x": 1.6713605706113356e-05,
+                "centroid_drift_y": 1.1415296883830117e-21,
+                "max_abs_drift_x": 1.6713605706113356e-05,
+                "max_abs_drift_y": 2.538491060561995e-21,
+                "max_drift_resultant": 1.6713605706113356e-05,
+                "displacement_resultant_in": 0.004354732368121802,
+                "centroid_story_displacement_x_in": 0.0026073224901536837,
+                "centroid_story_displacement_y_in": 1.7807863138774983e-19,
+                "max_story_displacement_resultant_in": 0.0026073224901536837
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 0.007212177935433357,
+                "uy_in": 1.9881953278766936e-18,
+                "rz_rad": -1.545919160898567e-21,
+                "centroid_drift_x": 1.8316958764817652e-05,
+                "centroid_drift_y": 8.759224431795337e-21,
+                "max_abs_drift_x": 1.8316958764817662e-05,
+                "max_abs_drift_y": 1.5955755399868386e-20,
+                "max_drift_resultant": 1.8316958764817662e-05,
+                "displacement_resultant_in": 0.007212177935433357,
+                "centroid_story_displacement_x_in": 0.002857445567311554,
+                "centroid_story_displacement_y_in": 1.3664390113600727e-18,
+                "max_story_displacement_resultant_in": 0.002857445567311556
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 0.009902053132422031,
+                "uy_in": 4.084190895367805e-18,
+                "rz_rad": -2.122573721787265e-21,
+                "centroid_drift_x": 1.724278972428637e-05,
+                "centroid_drift_y": 1.343586902237892e-20,
+                "max_abs_drift_x": 1.7242789724286377e-05,
+                "max_abs_drift_y": 1.5210190748190295e-20,
+                "max_drift_resultant": 1.7242789724286377e-05,
+                "displacement_resultant_in": 0.009902053132422031,
+                "centroid_story_displacement_x_in": 0.002689875196988674,
+                "centroid_story_displacement_y_in": 2.0959955674911116e-18,
+                "max_story_displacement_resultant_in": 0.002689875196988675
+              }
+            ]
+          },
+          "SEISMIC_Y": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": -1.8868292840927922e-19,
+                "uy_in": 0.0017474098779681187,
+                "rz_rad": -4.1589399528526474e-21,
+                "centroid_drift_x": -1.2095059513415333e-21,
+                "centroid_drift_y": 1.1201345371590503e-05,
+                "max_abs_drift_x": 1.4006244267811218e-20,
+                "max_abs_drift_y": 1.1201345371590515e-05,
+                "max_drift_resultant": 1.1201345371590515e-05,
+                "displacement_resultant_in": 0.0017474098779681187,
+                "centroid_story_displacement_x_in": -1.8868292840927922e-19,
+                "centroid_story_displacement_y_in": 0.0017474098779681187,
+                "max_story_displacement_resultant_in": 0.0017474098779681204
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 1.53483443325689e-19,
+                "uy_in": 0.0043547323681218005,
+                "rz_rad": -5.905416229294582e-21,
+                "centroid_drift_x": 2.1933741777882577e-21,
+                "centroid_drift_y": 1.6713605706113345e-05,
+                "max_abs_drift_x": 7.567147336071135e-21,
+                "max_abs_drift_y": 1.6713605706113352e-05,
+                "max_drift_resultant": 1.6713605706113352e-05,
+                "displacement_resultant_in": 0.0043547323681218005,
+                "centroid_story_displacement_x_in": 3.421663717349682e-19,
+                "centroid_story_displacement_y_in": 0.0026073224901536824,
+                "max_story_displacement_resultant_in": 0.0026073224901536833
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": -3.6259077498461855e-20,
+                "uy_in": 0.007212177935433354,
+                "rz_rad": -1.1799348186582526e-20,
+                "centroid_drift_x": -1.2162982104112233e-21,
+                "centroid_drift_y": 1.831695876481765e-05,
+                "max_abs_drift_x": 1.93514734636049e-20,
+                "max_abs_drift_y": 1.8316958764817666e-05,
+                "max_drift_resultant": 1.8316958764817666e-05,
+                "displacement_resultant_in": 0.007212177935433354,
+                "centroid_story_displacement_x_in": -1.8974252082415086e-19,
+                "centroid_story_displacement_y_in": 0.0028574455673115538,
+                "max_story_displacement_resultant_in": 0.0028574455673115564
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 7.763839303751475e-19,
+                "uy_in": 0.009902053132422024,
+                "rz_rad": -5.535477952513818e-21,
+                "centroid_drift_x": 5.2092500504718545e-21,
+                "centroid_drift_y": 1.7242789724286344e-05,
+                "max_abs_drift_x": 2.4482696924529422e-20,
+                "max_abs_drift_y": 1.7242789724286364e-05,
+                "max_drift_resultant": 1.7242789724286364e-05,
+                "displacement_resultant_in": 0.009902053132422024,
+                "centroid_story_displacement_x_in": 8.126430078736093e-19,
+                "centroid_story_displacement_y_in": 0.0026898751969886697,
+                "max_story_displacement_resultant_in": 0.0026898751969886728
+              }
+            ]
+          }
+        }
+      },
+      "floors_2": {
+        "candidate_id": "floors_2",
+        "starts": [
+          2
+        ],
+        "group_count": 1,
+        "is_pareto": true,
+        "occupied_stories": [
+          2,
+          3
+        ],
+        "metrics": {
+          "material_volume_ft3": 6511.999997449394,
+          "max_drift_ratio": 1.3645625050956076e-05,
+          "max_roof_displacement_in": 0.00765660721055592,
+          "governing": {
+            "case": "WIND_X",
+            "floor_id": "F1"
+          }
+        },
+        "cases": {
+          "GRAVITY": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 5.498375329726164e-19,
+                "uy_in": -5.037068454337621e-19,
+                "rz_rad": 2.5183486134823245e-21,
+                "centroid_drift_x": 3.524599570337285e-21,
+                "centroid_drift_y": -3.2288900348318085e-21,
+                "max_abs_drift_x": 1.1273364534898282e-20,
+                "max_abs_drift_y": 1.0977654999392806e-20,
+                "max_drift_resultant": 1.573523616671819e-20,
+                "displacement_resultant_in": 7.456821700981223e-19,
+                "centroid_story_displacement_x_in": 5.498375329726164e-19,
+                "centroid_story_displacement_y_in": -5.037068454337621e-19,
+                "max_story_displacement_resultant_in": 2.454696842008038e-18
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 5.874075514013573e-19,
+                "uy_in": -1.3217360153238754e-18,
+                "rz_rad": 1.5899711610191045e-21,
+                "centroid_drift_x": 2.408334514662879e-22,
+                "centroid_drift_y": -5.243776730064829e-21,
+                "max_abs_drift_x": 3.097379459045426e-21,
+                "max_abs_drift_y": 8.100322737643966e-21,
+                "max_drift_resultant": 8.672311570008792e-21,
+                "displacement_resultant_in": 1.446386437176308e-18,
+                "centroid_story_displacement_x_in": 3.7570018428740915e-20,
+                "centroid_story_displacement_y_in": -8.180291698901133e-19,
+                "max_story_displacement_resultant_in": 1.3528806049213716e-18
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 1.3280338336583102e-18,
+                "uy_in": -2.5381205258673793e-18,
+                "rz_rad": 1.5353010340123312e-22,
+                "centroid_drift_x": 4.747604373442005e-21,
+                "centroid_drift_y": -7.7973366060481e-21,
+                "max_abs_drift_x": 9.167423012266225e-21,
+                "max_abs_drift_y": 1.2217155244872319e-20,
+                "max_drift_resultant": 1.5274178438238162e-20,
+                "displacement_resultant_in": 2.8645644812380274e-18,
+                "centroid_story_displacement_x_in": 7.406262822569529e-19,
+                "centroid_story_displacement_y_in": -1.2163845105435037e-18,
+                "max_story_displacement_resultant_in": 2.3827718363651533e-18
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 1.5434348829627586e-18,
+                "uy_in": -4.1905067305972045e-18,
+                "rz_rad": -8.28407326653816e-22,
+                "centroid_drift_x": 1.380775957079797e-21,
+                "centroid_drift_y": -1.0592219261088625e-20,
+                "max_abs_drift_x": 4.4021218957107164e-21,
+                "max_abs_drift_y": 1.3613565199719547e-20,
+                "max_drift_resultant": 1.4307614568183992e-20,
+                "displacement_resultant_in": 4.465706875414769e-18,
+                "centroid_story_displacement_x_in": 2.1540104930444831e-19,
+                "centroid_story_displacement_y_in": -1.6523862047298258e-18,
+                "max_story_displacement_resultant_in": 2.231987872636703e-18
+              }
+            ]
+          },
+          "WIND_X": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 0.002128717507949146,
+                "uy_in": 9.907679821197606e-19,
+                "rz_rad": -4.726992791342023e-21,
+                "centroid_drift_x": 1.364562505095606e-05,
+                "centroid_drift_y": 6.351076808460003e-21,
+                "max_abs_drift_x": 1.3645625050956076e-05,
+                "max_abs_drift_y": 2.0895670012589304e-20,
+                "max_drift_resultant": 1.3645625050956076e-05,
+                "displacement_resultant_in": 0.002128717507949146,
+                "centroid_story_displacement_x_in": 0.002128717507949146,
+                "centroid_story_displacement_y_in": 9.907679821197606e-19,
+                "max_story_displacement_resultant_in": 0.002128717507949148
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 0.004012697078608541,
+                "uy_in": 2.6359616793184006e-18,
+                "rz_rad": -5.8708768481525004e-21,
+                "centroid_drift_x": 1.2076792119611507e-05,
+                "centroid_drift_y": 1.0546113443581026e-20,
+                "max_abs_drift_x": 1.2076792119611509e-05,
+                "max_abs_drift_y": 1.406575669530557e-20,
+                "max_drift_resultant": 1.2076792119611509e-05,
+                "displacement_resultant_in": 0.004012697078608541,
+                "centroid_story_displacement_x_in": 0.0018839795706593952,
+                "centroid_story_displacement_y_in": 1.64519369719864e-18,
+                "max_story_displacement_resultant_in": 0.0018839795706593954
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 0.005825651822602604,
+                "uy_in": 4.726786060162853e-18,
+                "rz_rad": -9.389706360867687e-21,
+                "centroid_drift_x": 1.1621504769192716e-05,
+                "centroid_drift_y": 1.3402720390028537e-20,
+                "max_abs_drift_x": 1.1621504769192727e-05,
+                "max_abs_drift_y": 2.422988812145989e-20,
+                "max_drift_resultant": 1.1621504769192727e-05,
+                "displacement_resultant_in": 0.005825651822602604,
+                "centroid_story_displacement_x_in": 0.0018129547439940637,
+                "centroid_story_displacement_y_in": 2.090824380844452e-18,
+                "max_story_displacement_resultant_in": 0.0018129547439940654
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 0.00765660721055592,
+                "uy_in": 7.113307080940362e-18,
+                "rz_rad": -1.240487633883383e-20,
+                "centroid_drift_x": 1.1736893512521251e-05,
+                "centroid_drift_y": 1.5298211671650697e-20,
+                "max_abs_drift_x": 1.1736893512521264e-05,
+                "max_abs_drift_y": 2.4575657757700365e-20,
+                "max_drift_resultant": 1.1736893512521264e-05,
+                "displacement_resultant_in": 0.00765660721055592,
+                "centroid_story_displacement_x_in": 0.0018309553879533153,
+                "centroid_story_displacement_y_in": 2.386521020777509e-18,
+                "max_story_displacement_resultant_in": 0.0018309553879533175
+              }
+            ]
+          },
+          "WIND_Y": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": -5.979646214273672e-19,
+                "uy_in": 0.0021287175079491437,
+                "rz_rad": -4.6717228844275075e-21,
+                "centroid_drift_x": -3.8331065476113275e-21,
+                "centroid_drift_y": 1.3645625050956049e-05,
+                "max_abs_drift_x": 1.8207638499695968e-20,
+                "max_abs_drift_y": 1.3645625050956062e-05,
+                "max_drift_resultant": 1.3645625050956062e-05,
+                "displacement_resultant_in": 0.0021287175079491437,
+                "centroid_story_displacement_x_in": -5.979646214273672e-19,
+                "centroid_story_displacement_y_in": 0.0021287175079491437,
+                "max_story_displacement_resultant_in": 0.002128717507949146
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": -2.687344639908719e-18,
+                "uy_in": 0.004012697078608537,
+                "rz_rad": -7.127601872144112e-21,
+                "centroid_drift_x": -1.3393461656931744e-20,
+                "centroid_drift_y": 1.2076792119611495e-05,
+                "max_abs_drift_x": 2.0950012388367447e-20,
+                "max_abs_drift_y": 1.2076792119611502e-05,
+                "max_drift_resultant": 1.2076792119611502e-05,
+                "displacement_resultant_in": 0.004012697078608537,
+                "centroid_story_displacement_x_in": -2.089380018481352e-18,
+                "centroid_story_displacement_y_in": 0.0018839795706593933,
+                "max_story_displacement_resultant_in": 0.0018839795706593943
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": -5.076303322822052e-18,
+                "uy_in": 0.0058256518226026,
+                "rz_rad": -8.549041440718183e-21,
+                "centroid_drift_x": -1.5313837710982903e-20,
+                "centroid_drift_y": 1.1621504769192713e-05,
+                "max_abs_drift_x": 1.968749792198005e-20,
+                "max_abs_drift_y": 1.162150476919272e-05,
+                "max_drift_resultant": 1.162150476919272e-05,
+                "displacement_resultant_in": 0.0058256518226026,
+                "centroid_story_displacement_x_in": -2.388958682913333e-18,
+                "centroid_story_displacement_y_in": 0.0018129547439940633,
+                "max_story_displacement_resultant_in": 0.0018129547439940644
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": -7.296505114370493e-18,
+                "uy_in": 0.007656607210555915,
+                "rz_rad": -6.0787548562030315e-21,
+                "centroid_drift_x": -1.4232062766336157e-20,
+                "centroid_drift_y": 1.1736893512521244e-05,
+                "max_abs_drift_x": 2.1832944564844314e-20,
+                "max_abs_drift_y": 1.1736893512521251e-05,
+                "max_drift_resultant": 1.1736893512521251e-05,
+                "displacement_resultant_in": 0.007656607210555915,
+                "centroid_story_displacement_x_in": -2.2202017915484405e-18,
+                "centroid_story_displacement_y_in": 0.0018309553879533142,
+                "max_story_displacement_resultant_in": 0.0018309553879533153
+              }
+            ]
+          },
+          "SEISMIC_X": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 0.001512628191658317,
+                "uy_in": -1.8092332347953408e-18,
+                "rz_rad": 4.254458108641867e-21,
+                "centroid_drift_x": 9.696334561912288e-06,
+                "centroid_drift_y": -1.1597648940995773e-20,
+                "max_abs_drift_x": 9.696334561912301e-06,
+                "max_abs_drift_y": 2.4688289275278442e-20,
+                "max_drift_resultant": 9.696334561912301e-06,
+                "displacement_resultant_in": 0.001512628191658317,
+                "centroid_story_displacement_x_in": 0.001512628191658317,
+                "centroid_story_displacement_y_in": -1.8092332347953408e-18,
+                "max_story_displacement_resultant_in": 0.0015126281916583192
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 0.003095679900001739,
+                "uy_in": -2.6770199162791123e-18,
+                "rz_rad": 8.762321079256474e-21,
+                "centroid_drift_x": 1.0147767361175782e-05,
+                "centroid_drift_y": -5.5627351377164825e-21,
+                "max_abs_drift_x": 1.0147767361175797e-05,
+                "max_abs_drift_y": 1.9433082739607585e-20,
+                "max_drift_resultant": 1.0147767361175797e-05,
+                "displacement_resultant_in": 0.003095679900001739,
+                "centroid_story_displacement_x_in": 0.0015830517083434221,
+                "centroid_story_displacement_y_in": -8.677866814837713e-19,
+                "max_story_displacement_resultant_in": 0.0015830517083434243
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 0.004719484006087277,
+                "uy_in": -3.883155971123376e-18,
+                "rz_rad": 6.902412138574102e-21,
+                "centroid_drift_x": 1.0409000680035499e-05,
+                "centroid_drift_y": -7.731641377206823e-21,
+                "max_abs_drift_x": 1.0409000680035506e-05,
+                "max_abs_drift_y": 1.3454438117767968e-20,
+                "max_drift_resultant": 1.0409000680035506e-05,
+                "displacement_resultant_in": 0.004719484006087277,
+                "centroid_story_displacement_x_in": 0.0016238041060855379,
+                "centroid_story_displacement_y_in": -1.2061360548442645e-18,
+                "max_story_displacement_resultant_in": 0.001623804106085539
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 0.0064465452739984885,
+                "uy_in": -5.313463545906583e-18,
+                "rz_rad": 7.721674800529622e-21,
+                "centroid_drift_x": 1.1070905563533405e-05,
+                "centroid_drift_y": -9.168638299892346e-21,
+                "max_abs_drift_x": 1.1070905563533405e-05,
+                "max_abs_drift_y": 1.1689446490524715e-20,
+                "max_drift_resultant": 1.1070905563533405e-05,
+                "displacement_resultant_in": 0.0064465452739984885,
+                "centroid_story_displacement_x_in": 0.0017270612679112112,
+                "centroid_story_displacement_y_in": -1.430307574783206e-18,
+                "max_story_displacement_resultant_in": 0.0017270612679112112
+              }
+            ]
+          },
+          "SEISMIC_Y": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 4.355064360165586e-19,
+                "uy_in": 0.0015126281916583175,
+                "rz_rad": -1.4587357208343108e-21,
+                "centroid_drift_x": 2.7917079231830677e-21,
+                "centroid_drift_y": 9.696334561912291e-06,
+                "max_abs_drift_x": 7.280125525750178e-21,
+                "max_abs_drift_y": 9.696334561912296e-06,
+                "max_drift_resultant": 9.696334561912296e-06,
+                "displacement_resultant_in": 0.0015126281916583175,
+                "centroid_story_displacement_x_in": 4.355064360165586e-19,
+                "centroid_story_displacement_y_in": 0.0015126281916583175,
+                "max_story_displacement_resultant_in": 0.0015126281916583184
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 1.3705282417932654e-19,
+                "uy_in": 0.0030956799000017407,
+                "rz_rad": 6.6681785027671275e-22,
+                "centroid_drift_x": -1.913164178443795e-21,
+                "centroid_drift_y": 1.014776736117579e-05,
+                "max_abs_drift_x": 8.453329012631558e-21,
+                "max_abs_drift_y": 1.0147767361175798e-05,
+                "max_drift_resultant": 1.0147767361175798e-05,
+                "displacement_resultant_in": 0.0030956799000017407,
+                "centroid_story_displacement_x_in": -2.984536118372321e-19,
+                "centroid_story_displacement_y_in": 0.0015830517083434232,
+                "max_story_displacement_resultant_in": 0.0015830517083434245
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": -6.05239368687338e-19,
+                "uy_in": 0.004719484006087282,
+                "rz_rad": 8.379598689384066e-22,
+                "centroid_drift_x": -4.758283287606824e-21,
+                "centroid_drift_y": 1.0409000680035523e-05,
+                "max_abs_drift_x": 5.28487411425819e-21,
+                "max_abs_drift_y": 1.0409000680035523e-05,
+                "max_drift_resultant": 1.0409000680035523e-05,
+                "displacement_resultant_in": 0.004719484006087282,
+                "centroid_story_displacement_x_in": -7.422921928666646e-19,
+                "centroid_story_displacement_y_in": 0.0016238041060855416,
+                "max_story_displacement_resultant_in": 0.0016238041060855416
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": -1.5860110920432341e-18,
+                "uy_in": 0.006446545273998499,
+                "rz_rad": -6.536638372788204e-21,
+                "centroid_drift_x": -6.2869982266403585e-21,
+                "centroid_drift_y": 1.1070905563533439e-05,
+                "max_abs_drift_x": 2.897806973964532e-20,
+                "max_abs_drift_y": 1.1070905563533462e-05,
+                "max_drift_resultant": 1.1070905563533462e-05,
+                "displacement_resultant_in": 0.006446545273998499,
+                "centroid_story_displacement_x_in": -9.80771723355896e-19,
+                "centroid_story_displacement_y_in": 0.0017270612679112167,
+                "max_story_displacement_resultant_in": 0.0017270612679112203
+              }
+            ]
+          }
+        }
+      },
+      "floors_3": {
+        "candidate_id": "floors_3",
+        "starts": [
+          3
+        ],
+        "group_count": 1,
+        "is_pareto": false,
+        "occupied_stories": [
+          3,
+          4
+        ],
+        "metrics": {
+          "material_volume_ft3": 6511.999997449395,
+          "max_drift_ratio": 1.6567600618048968e-05,
+          "max_roof_displacement_in": 0.00857838245575662,
+          "governing": {
+            "case": "WIND_X",
+            "floor_id": "F2"
+          }
+        },
+        "cases": {
+          "GRAVITY": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": -2.5586285319454745e-19,
+                "uy_in": -1.3312096602259345e-18,
+                "rz_rad": -5.0889028459501956e-21,
+                "centroid_drift_x": -1.6401464948368423e-21,
+                "centroid_drift_y": -8.533395257858555e-21,
+                "max_abs_drift_x": 1.729830909776052e-20,
+                "max_abs_drift_y": 2.419155786078223e-20,
+                "max_drift_resultant": 2.973992214806957e-20,
+                "displacement_resultant_in": 1.3555755084552476e-18,
+                "centroid_story_displacement_x_in": -2.5586285319454745e-19,
+                "centroid_story_displacement_y_in": -1.3312096602259345e-18,
+                "max_story_displacement_resultant_in": 4.639427855098854e-18
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": -1.7201752872535452e-19,
+                "uy_in": -2.555455363637548e-18,
+                "rz_rad": -6.630832230738299e-21,
+                "centroid_drift_x": 5.374700286486725e-22,
+                "centroid_drift_y": -7.847728868023162e-21,
+                "max_abs_drift_x": 5.2818681356889906e-21,
+                "max_abs_drift_y": 1.259212697506348e-20,
+                "max_drift_resultant": 1.365502811271101e-20,
+                "displacement_resultant_in": 2.561238400800029e-18,
+                "centroid_story_displacement_x_in": 8.384532446919292e-20,
+                "centroid_story_displacement_y_in": -1.2242457034116135e-18,
+                "max_story_displacement_resultant_in": 2.1301843855829178e-18
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 1.563067151601134e-18,
+                "uy_in": -3.2724595900793776e-18,
+                "rz_rad": -9.703622309290945e-21,
+                "centroid_drift_x": 1.1122337694400567e-20,
+                "centroid_drift_y": -4.5961809387296764e-21,
+                "max_abs_drift_x": 2.0577076397639478e-20,
+                "max_abs_drift_y": 1.4050919641968596e-20,
+                "max_drift_resultant": 2.491674970495451e-20,
+                "displacement_resultant_in": 3.6265921591925625e-18,
+                "centroid_story_displacement_x_in": 1.7350846803264885e-18,
+                "centroid_story_displacement_y_in": -7.170042264418296e-19,
+                "max_story_displacement_resultant_in": 3.887012953972904e-18
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 2.025700770438827e-18,
+                "uy_in": -3.525888255858043e-18,
+                "rz_rad": -1.1334300727148606e-20,
+                "centroid_drift_x": 2.965600120754443e-21,
+                "centroid_drift_y": -1.624542729350421e-21,
+                "max_abs_drift_x": 7.983072175701092e-21,
+                "max_abs_drift_y": 6.6420147842970665e-21,
+                "max_drift_resultant": 1.0384883329015968e-20,
+                "displacement_resultant_in": 4.066368355689648e-18,
+                "centroid_story_displacement_x_in": 4.6263361883769315e-19,
+                "centroid_story_displacement_y_in": -2.534286657786657e-19,
+                "max_story_displacement_resultant_in": 1.620041799326491e-18
+              }
+            ]
+          },
+          "WIND_X": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 0.0022431599623890324,
+                "uy_in": 4.2495373869303333e-19,
+                "rz_rad": -4.084917940015205e-21,
+                "centroid_drift_x": 1.4379230528134822e-05,
+                "centroid_drift_y": 2.7240624275194442e-21,
+                "max_abs_drift_x": 1.4379230528134834e-05,
+                "max_abs_drift_y": 1.5293040704489307e-20,
+                "max_drift_resultant": 1.4379230528134834e-05,
+                "displacement_resultant_in": 0.0022431599623890324,
+                "centroid_story_displacement_x_in": 0.0022431599623890324,
+                "centroid_story_displacement_y_in": 4.2495373869303333e-19,
+                "max_story_displacement_resultant_in": 0.002243159962389034
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 0.00482770565880467,
+                "uy_in": 1.503595182590406e-18,
+                "rz_rad": -6.521465590054289e-21,
+                "centroid_drift_x": 1.656760061804896e-05,
+                "centroid_drift_y": 6.914368230111364e-21,
+                "max_abs_drift_x": 1.6567600618048968e-05,
+                "max_abs_drift_y": 1.4411437922539314e-20,
+                "max_drift_resultant": 1.6567600618048968e-05,
+                "displacement_resultant_in": 0.00482770565880467,
+                "centroid_story_displacement_x_in": 0.002584545696415638,
+                "centroid_story_displacement_y_in": 1.0786414438973727e-18,
+                "max_story_displacement_resultant_in": 0.002584545696415639
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 0.006786172503925621,
+                "uy_in": 3.1122790829011054e-18,
+                "rz_rad": -2.5124599986394225e-21,
+                "centroid_drift_x": 1.2554274648211221e-05,
+                "centroid_drift_y": 1.0312076284042943e-20,
+                "max_abs_drift_x": 1.2554274648211235e-05,
+                "max_abs_drift_y": 2.2647478103780993e-20,
+                "max_drift_resultant": 1.2554274648211235e-05,
+                "displacement_resultant_in": 0.006786172503925621,
+                "centroid_story_displacement_x_in": 0.0019584668451209505,
+                "centroid_story_displacement_y_in": 1.6086839003106991e-18,
+                "max_story_displacement_resultant_in": 0.0019584668451209527
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 0.00857838245575662,
+                "uy_in": 4.223499238460254e-18,
+                "rz_rad": -6.261338675070078e-21,
+                "centroid_drift_x": 1.1488525332249997e-05,
+                "centroid_drift_y": 7.123206125379155e-21,
+                "max_abs_drift_x": 1.148852533225001e-05,
+                "max_abs_drift_y": 1.8658217437473478e-20,
+                "max_drift_resultant": 1.148852533225001e-05,
+                "displacement_resultant_in": 0.00857838245575662,
+                "centroid_story_displacement_x_in": 0.0017922099518309996,
+                "centroid_story_displacement_y_in": 1.111220155559148e-18,
+                "max_story_displacement_resultant_in": 0.0017922099518310017
+              }
+            ]
+          },
+          "WIND_Y": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": -3.735040487947636e-19,
+                "uy_in": 0.0022431599623890324,
+                "rz_rad": -3.472946877760525e-21,
+                "centroid_drift_x": -2.3942567230433564e-21,
+                "centroid_drift_y": 1.4379230528134822e-05,
+                "max_abs_drift_x": 1.3080247116152665e-20,
+                "max_abs_drift_y": 1.4379230528134833e-05,
+                "max_drift_resultant": 1.4379230528134833e-05,
+                "displacement_resultant_in": 0.0022431599623890324,
+                "centroid_story_displacement_x_in": -3.735040487947636e-19,
+                "centroid_story_displacement_y_in": 0.0022431599623890324,
+                "max_story_displacement_resultant_in": 0.0022431599623890337
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": -1.1295597930608946e-18,
+                "uy_in": 0.004827705658804666,
+                "rz_rad": -8.081491329321966e-21,
+                "centroid_drift_x": -4.846511181193146e-21,
+                "centroid_drift_y": 1.6567600618048934e-05,
+                "max_abs_drift_x": 1.9026647955228344e-20,
+                "max_abs_drift_y": 1.656760061804895e-05,
+                "max_drift_resultant": 1.656760061804895e-05,
+                "displacement_resultant_in": 0.004827705658804666,
+                "centroid_story_displacement_x_in": -7.560557442661309e-19,
+                "centroid_story_displacement_y_in": 0.0025845456964156337,
+                "max_story_displacement_resultant_in": 0.0025845456964156363
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": -1.2416884713977769e-18,
+                "uy_in": 0.006786172503925617,
+                "rz_rad": -7.200682344254197e-21,
+                "centroid_drift_x": -7.187735790825786e-22,
+                "centroid_drift_y": 1.2554274648211228e-05,
+                "max_abs_drift_x": 3.4289550715987905e-21,
+                "max_abs_drift_y": 1.2554274648211235e-05,
+                "max_drift_resultant": 1.2554274648211235e-05,
+                "displacement_resultant_in": 0.006786172503925617,
+                "centroid_story_displacement_x_in": -1.1212867833688225e-19,
+                "centroid_story_displacement_y_in": 0.001958466845120952,
+                "max_story_displacement_resultant_in": 0.0019584668451209527
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": -1.4799638204370682e-18,
+                "uy_in": 0.008578382455756614,
+                "rz_rad": -6.823584931720548e-21,
+                "centroid_drift_x": -1.5274060835852009e-21,
+                "centroid_drift_y": 1.1488525332249977e-05,
+                "max_abs_drift_x": 2.6877058144579663e-21,
+                "max_abs_drift_y": 1.1488525332249977e-05,
+                "max_drift_resultant": 1.1488525332249977e-05,
+                "displacement_resultant_in": 0.008578382455756614,
+                "centroid_story_displacement_x_in": -2.3827534903929134e-19,
+                "centroid_story_displacement_y_in": 0.0017922099518309963,
+                "max_story_displacement_resultant_in": 0.0017922099518309963
+              }
+            ]
+          },
+          "SEISMIC_X": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 0.0015990200160815968,
+                "uy_in": 1.462554087553549e-18,
+                "rz_rad": 1.5369411618268057e-21,
+                "centroid_drift_x": 1.0250128308215364e-05,
+                "centroid_drift_y": 9.375346715086853e-21,
+                "max_abs_drift_x": 1.025012830821537e-05,
+                "max_abs_drift_y": 1.4104396443784715e-20,
+                "max_drift_resultant": 1.025012830821537e-05,
+                "displacement_resultant_in": 0.0015990200160815968,
+                "centroid_story_displacement_x_in": 0.0015990200160815968,
+                "centroid_story_displacement_y_in": 1.462554087553549e-18,
+                "max_story_displacement_resultant_in": 0.0015990200160815977
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": 0.00373681273442516,
+                "uy_in": 3.1773936113884697e-18,
+                "rz_rad": 9.48207418730397e-22,
+                "centroid_drift_x": 1.3703799476561302e-05,
+                "centroid_drift_y": 1.099256105022385e-20,
+                "max_abs_drift_x": 1.3703799476561304e-05,
+                "max_abs_drift_y": 1.2804049490520493e-20,
+                "max_drift_resultant": 1.3703799476561304e-05,
+                "displacement_resultant_in": 0.00373681273442516,
+                "centroid_story_displacement_x_in": 0.0021377927183435634,
+                "centroid_story_displacement_y_in": 1.7148395238349206e-18,
+                "max_story_displacement_resultant_in": 0.002137792718343564
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": 0.005515094231001934,
+                "uy_in": 4.188471622499874e-18,
+                "rz_rad": 3.9546493679053825e-21,
+                "centroid_drift_x": 1.1399240362671622e-05,
+                "centroid_drift_y": 6.481269301996182e-21,
+                "max_abs_drift_x": 1.1399240362671632e-05,
+                "max_abs_drift_y": 1.5731859914842294e-20,
+                "max_drift_resultant": 1.1399240362671632e-05,
+                "displacement_resultant_in": 0.005515094231001934,
+                "centroid_story_displacement_x_in": 0.001778281496576773,
+                "centroid_story_displacement_y_in": 1.0110780111114045e-18,
+                "max_story_displacement_resultant_in": 0.0017782814965767748
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": 0.007174348212652993,
+                "uy_in": 5.352459593090181e-18,
+                "rz_rad": -1.0013910234907897e-21,
+                "centroid_drift_x": 1.063624347212218e-05,
+                "centroid_drift_y": 7.461461349937863e-21,
+                "max_abs_drift_x": 1.0636243472122193e-05,
+                "max_abs_drift_y": 2.2710816400387622e-20,
+                "max_drift_resultant": 1.0636243472122193e-05,
+                "displacement_resultant_in": 0.007174348212652993,
+                "centroid_story_displacement_x_in": 0.0016592539816510602,
+                "centroid_story_displacement_y_in": 1.1639879705903067e-18,
+                "max_story_displacement_resultant_in": 0.0016592539816510622
+              }
+            ]
+          },
+          "SEISMIC_Y": {
+            "floors": [
+              {
+                "floor_id": "F1",
+                "floor_number": 1,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 12.999999999999998,
+                "ux_in": 2.41062734283759e-19,
+                "uy_in": 0.001599020016081598,
+                "rz_rad": 2.113829818969366e-21,
+                "centroid_drift_x": 1.5452739377164037e-21,
+                "centroid_drift_y": 1.0250128308215371e-05,
+                "max_abs_drift_x": 8.049365688391376e-21,
+                "max_abs_drift_y": 1.0250128308215378e-05,
+                "max_drift_resultant": 1.0250128308215378e-05,
+                "displacement_resultant_in": 0.001599020016081598,
+                "centroid_story_displacement_x_in": 2.41062734283759e-19,
+                "centroid_story_displacement_y_in": 0.001599020016081598,
+                "max_story_displacement_resultant_in": 0.001599020016081599
+              },
+              {
+                "floor_id": "F2",
+                "floor_number": 2,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 25.999999999999996,
+                "ux_in": -4.836124507250596e-19,
+                "uy_in": 0.0037368127344251626,
+                "rz_rad": 5.494399490377157e-21,
+                "centroid_drift_x": -4.64535375005653e-21,
+                "centroid_drift_y": 1.3703799476561312e-05,
+                "max_abs_drift_x": 1.5047106585157424e-20,
+                "max_abs_drift_y": 1.3703799476561322e-05,
+                "max_drift_resultant": 1.3703799476561322e-05,
+                "displacement_resultant_in": 0.0037368127344251626,
+                "centroid_story_displacement_x_in": -7.246751850088186e-19,
+                "centroid_story_displacement_y_in": 0.002137792718343565,
+                "max_story_displacement_resultant_in": 0.0021377927183435664
+              },
+              {
+                "floor_id": "F3",
+                "floor_number": 3,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 38.99999999999999,
+                "ux_in": -2.4576274477781372e-18,
+                "uy_in": 0.005515094231001939,
+                "rz_rad": 3.489352467428807e-21,
+                "centroid_drift_x": -1.2653942288801778e-20,
+                "centroid_drift_y": 1.139924036267164e-05,
+                "max_abs_drift_x": 1.8823317744027468e-20,
+                "max_abs_drift_y": 1.1399240362671643e-05,
+                "max_drift_resultant": 1.1399240362671643e-05,
+                "displacement_resultant_in": 0.005515094231001939,
+                "centroid_story_displacement_x_in": -1.9740149970530772e-18,
+                "centroid_story_displacement_y_in": 0.0017782814965767758,
+                "max_story_displacement_resultant_in": 0.0017782814965767763
+              },
+              {
+                "floor_id": "F4",
+                "floor_number": 4,
+                "story_height_ft": 12.999999999999998,
+                "elevation_ft": 51.99999999999999,
+                "ux_in": -3.529993984502707e-18,
+                "uy_in": 0.007174348212653,
+                "rz_rad": 4.185633187976985e-21,
+                "centroid_drift_x": -6.87414446618314e-21,
+                "centroid_drift_y": 1.0636243472122186e-05,
+                "max_abs_drift_x": 9.01654668325446e-21,
+                "max_abs_drift_y": 1.0636243472122186e-05,
+                "max_drift_resultant": 1.0636243472122186e-05,
+                "displacement_resultant_in": 0.007174348212653,
+                "centroid_story_displacement_x_in": -1.0723665367245699e-18,
+                "centroid_story_displacement_y_in": 0.001659253981651061,
+                "max_story_displacement_resultant_in": 0.001659253981651061
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
