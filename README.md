@@ -4,6 +4,11 @@ The goal is a multi-step tower design workflow: generate tower geometry, analyze
 the building with OpenSees, then optimize outrigger placement using the analysis
 results.
 
+SWOOP means **Shear Wall Outrigger Optimization Program**. The project targets a
+repetitive design process that often relies on manual guess-and-check. See the
+[project overview](docs/SWOOP_PROJECT_OVERVIEW.md) for the motivation, planned
+workflow, current implementation status, and limitations.
+
 ## Full program workflow
 
 1. **Generate tower geometry.** Read a required `.csv` tower list and write one
