@@ -1,0 +1,22 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "source_floorplate": "tower_floorplate_500ft_option_a.json",
+  "source_truss": "tower_500ft_option_a_truss_assembly.json",
+  "height_m": 152.4,
+  "plan_m": 67.3354,
+  "scenes": [
+    "01 Structural - translucent floors",
+    "02 Architectural - studio model",
+    "03 Outrigger - isolated detail"
+  ],
+  "columns": 28,
+  "outrigger_columns": 8,
+  "truss_arms": 8,
+  "chord_members": 16,
+  "diagonal_segments": 32,
+  "floor_thickness_m": 0.2032,
+  "floor_reference": "slabs centered at analysis floor elevations",
+  "isolated_detail": "core/column display crop 310-365 ft; floors omitted; no geometry moved",
+  "draft": false,
+  "render_device": "NVIDIA RTX 4000 Ada Generation Laptop GPU"
+}

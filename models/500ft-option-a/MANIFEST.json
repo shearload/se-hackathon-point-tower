@@ -5,8 +5,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 45,
-      "sha256": "fa474c7b17f39693a5fbbd18719ead64ce0158860adb2f1278814a1cf7c98bf8"
+      "bytes": 60,
+      "sha256": "d0a9f6ae6e48fb85237963287ed745cf2cbd81123403919544bb678799889f62"
     },
     {
       "path": ".gitignore",
@@ -30,8 +30,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6983,
-      "sha256": "9bc610b5429cdecf4aa0e653b8ad02890ed3d6afbc862aeca5335ff958284133"
+      "bytes": 7322,
+      "sha256": "aa9f1c09f0604414c81d4250168a9247f91ce558bc538eda8cf0a7548524fd79"
     },
     {
       "path": "tower_500ft_option_a_membrane.3dm",
@@ -157,6 +157,76 @@
       "path": "tower_model/verify_artifact.py",
       "bytes": 2323,
       "sha256": "f7e1c441c5a1d5dc8fe7a7d7bf3b66be94579763bb0b8f9db3c7597b1c47da7a"
+    },
+    {
+      "path": "visualization/.gitignore",
+      "bytes": 43,
+      "sha256": "8838226e840d5ecce1fa3ea4c5dfec1bb6513f1ae3de40379c2e59ed05dfc728"
+    },
+    {
+      "path": "visualization/blender_validation.json",
+      "bytes": 950,
+      "sha256": "773c709d12e867ece021ce47da01e0367901da1641fae13c0f48a7dbc431dddd"
+    },
+    {
+      "path": "visualization/build_blender_visualization.py",
+      "bytes": 15132,
+      "sha256": "6e49f374eb932dd07ca1ad55b28f52d363853bb2dea45518dfe754a5a93311e9"
+    },
+    {
+      "path": "visualization/compose_blender_boards.py",
+      "bytes": 5440,
+      "sha256": "a222d355170ee01c78d645c43e3549fc586885c9f31dc5a09fdcd69faa987f2f"
+    },
+    {
+      "path": "visualization/detail_board.png",
+      "bytes": 1711701,
+      "sha256": "88acaed42880902f851ae0cde39c8de471862b8d2f5de3255ff6d5032eed0f61"
+    },
+    {
+      "path": "visualization/finalize_blender_scene.py",
+      "bytes": 2167,
+      "sha256": "6df224b5affb0566536a99267e0862b2bc6912a623de2da0bac890eafaba3399"
+    },
+    {
+      "path": "visualization/outrigger_detail.png",
+      "bytes": 1874247,
+      "sha256": "8bced1a8948095527b050e47b034bbfa8790c6f41702512002fddf1d751e4855"
+    },
+    {
+      "path": "visualization/point_tower_option_a.blend",
+      "bytes": 297767,
+      "sha256": "61b576784f7601b86c482ca6d87fc54ecf5298e65e47b41aaa2210d6a4636359"
+    },
+    {
+      "path": "visualization/presentation_board.png",
+      "bytes": 2880863,
+      "sha256": "36a2ca7b01fe082b4c5c10b7fc735d703a1384eb2341c83f4149c3fc245ce2b2"
+    },
+    {
+      "path": "visualization/README.md",
+      "bytes": 2894,
+      "sha256": "42397556d1015d63dd69b238b25a86c9a71035938506dcfbe624d09c462b351e"
+    },
+    {
+      "path": "visualization/requirements.txt",
+      "bytes": 15,
+      "sha256": "ae3337e5ae362bf1fad83355272ff595b58aae13d7a7ac67617f6f3161fa0c07"
+    },
+    {
+      "path": "visualization/scene_metadata.json",
+      "bytes": 729,
+      "sha256": "a2ee9d864e1151b7062c955976a4cb3b4f78f7ba450597713091fe9e511a646c"
+    },
+    {
+      "path": "visualization/structural_hero.png",
+      "bytes": 2380242,
+      "sha256": "e5236c1992ed211d4350b4d9f9a77930a255d50111c7e2d1899c90f8d96b246d"
+    },
+    {
+      "path": "visualization/studio_hero.png",
+      "bytes": 2668498,
+      "sha256": "20b4cd63d8da3d3615d9eb9f44f5b0db29fa3896db452f1d633c3404c0d69561"
     }
   ]
 }

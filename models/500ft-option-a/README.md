@@ -1,4 +1,4 @@
-# 500 ft point tower — coupled core, outriggers and floor membranes
+# 500 ft point tower â€” coupled core, outriggers and floor membranes
 
 The current model is **Option A: 28 perimeter columns**, including eight outrigger
 columns aligned with the core walls. It combines a concrete core spine, steel
@@ -21,7 +21,7 @@ reproducible demand study, not a completed structural design.
 | Column layout | 28 total; eight wall-aligned outrigger columns; no face-center columns between each outrigger pair |
 | Outer bays | Three equal 32.1111 ft bays on each side of an outrigger pair |
 | Central bay | 28.25 ft **center-to-center**; 25.25 ft physical clear width between 36-in columns |
-| Outriggers | Eight arms in four planes, from Level 26 to Level 28 (325–350 ft) |
+| Outriggers | Eight arms in four planes, from Level 26 to Level 28 (325â€“350 ft) |
 | Steel / sections | Fy = 50 ksi; 36-in solid-square columns and chords; 18-in solid-square diagonals |
 | X intersections | Shared central joints, laterally restrained by the floor membrane |
 | Floor slab | 8 in; f'c = 6 ksi; density 150 pcf; 70% gross in-plane stiffness |
@@ -96,7 +96,7 @@ For verification, each truss arm is cut from the **same coupled model**. All
 interface translations at its wall and column joints are prescribed from that
 global solution, with matching member self-weight. Forty local solves cover
 eight arms and five gravity/lateral-sign cases. Their 240 member-force
-comparisons agree within a maximum absolute difference of **1.21 × 10^-11 kip**.
+comparisons agree within a maximum absolute difference of **1.21 Ã— 10^-11 kip**.
 Compatibility, force/moment equilibrium, strain energy/work, X/Y symmetry and an
 independent total-weight calculation also passed.
 
@@ -131,3 +131,7 @@ See [MODELING.md](MODELING.md) for idealizations and limitations,
 [HISTORY.md](HISTORY.md) for superseded revisions.
 
 ![Final Option A column layout and actual coarse floor mesh](tower_500ft_option_a_mesh_preview.png)
+
+## Blender visualization
+
+[Editable Blender scenes and presentation sheets](visualization/README.md) show the approved scheme in a translucent structural style and an architectural studio style, plus an isolated outrigger detail. The scene uses the same input geometry; colours and floor transparency are display treatments.

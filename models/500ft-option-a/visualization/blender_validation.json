@@ -1,0 +1,38 @@
+{
+  "blender": "5.2.2 LTS",
+  "source_inputs_embedded": true,
+  "relative_render_paths": true,
+  "checks": [
+    {
+      "scene": "01 Structural - translucent floors",
+      "columns": 28,
+      "outrigger_columns": 8,
+      "chords": 16,
+      "diagonal_segments": 32,
+      "slabs": 40,
+      "core_walls": 4,
+      "all_geometry_within_camera": true
+    },
+    {
+      "scene": "02 Architectural - studio model",
+      "columns": 28,
+      "outrigger_columns": 8,
+      "chords": 16,
+      "diagonal_segments": 32,
+      "slabs": 40,
+      "core_walls": 4,
+      "all_geometry_within_camera": true
+    },
+    {
+      "scene": "03 Outrigger - isolated detail",
+      "columns": 28,
+      "outrigger_columns": 8,
+      "chords": 16,
+      "diagonal_segments": 32,
+      "slabs": 0,
+      "core_walls": 4,
+      "all_geometry_within_camera": true
+    }
+  ],
+  "note": "Colours, translucency, display crop and edge softness are visualization only."
+}
