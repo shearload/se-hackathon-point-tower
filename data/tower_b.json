@@ -1,0 +1,1714 @@
+{
+  "format_version": "1.0",
+  "units": {
+    "coordinates": "ft",
+    "floor_height": "ft",
+    "section_dimensions": "in",
+    "Fy": "psi",
+    "E": "psi"
+  },
+  "floor_sequence": [
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    },
+    {
+      "type": "A",
+      "floor_height": 11.68
+    }
+  ],
+  "floor_types": {
+    "A": {
+      "structural_nodes": [
+        {
+          "id": "S1",
+          "x": -30.0,
+          "y": -30.0
+        },
+        {
+          "id": "S2",
+          "x": 30.0,
+          "y": -30.0
+        },
+        {
+          "id": "S3",
+          "x": 30.0,
+          "y": 30.0
+        },
+        {
+          "id": "S4",
+          "x": -30.0,
+          "y": 30.0
+        },
+        {
+          "id": "C1",
+          "x": -88.5,
+          "y": -88.5
+        },
+        {
+          "id": "C2",
+          "x": -75.8571,
+          "y": -88.5
+        },
+        {
+          "id": "C3",
+          "x": -63.2143,
+          "y": -88.5
+        },
+        {
+          "id": "C4",
+          "x": -50.5714,
+          "y": -88.5
+        },
+        {
+          "id": "C5",
+          "x": -37.9286,
+          "y": -88.5
+        },
+        {
+          "id": "C6",
+          "x": -25.2857,
+          "y": -88.5
+        },
+        {
+          "id": "C7",
+          "x": -12.6429,
+          "y": -88.5
+        },
+        {
+          "id": "C8",
+          "x": 0.0,
+          "y": -88.5
+        },
+        {
+          "id": "C9",
+          "x": 12.6429,
+          "y": -88.5
+        },
+        {
+          "id": "C10",
+          "x": 25.2857,
+          "y": -88.5
+        },
+        {
+          "id": "C11",
+          "x": 37.9286,
+          "y": -88.5
+        },
+        {
+          "id": "C12",
+          "x": 50.5714,
+          "y": -88.5
+        },
+        {
+          "id": "C13",
+          "x": 63.2143,
+          "y": -88.5
+        },
+        {
+          "id": "C14",
+          "x": 75.8571,
+          "y": -88.5
+        },
+        {
+          "id": "C15",
+          "x": 88.5,
+          "y": -88.5
+        },
+        {
+          "id": "C16",
+          "x": 88.5,
+          "y": -75.8571
+        },
+        {
+          "id": "C17",
+          "x": 88.5,
+          "y": -63.2143
+        },
+        {
+          "id": "C18",
+          "x": 88.5,
+          "y": -50.5714
+        },
+        {
+          "id": "C19",
+          "x": 88.5,
+          "y": -37.9286
+        },
+        {
+          "id": "C20",
+          "x": 88.5,
+          "y": -25.2857
+        },
+        {
+          "id": "C21",
+          "x": 88.5,
+          "y": -12.6429
+        },
+        {
+          "id": "C22",
+          "x": 88.5,
+          "y": 0.0
+        },
+        {
+          "id": "C23",
+          "x": 88.5,
+          "y": 12.6429
+        },
+        {
+          "id": "C24",
+          "x": 88.5,
+          "y": 25.2857
+        },
+        {
+          "id": "C25",
+          "x": 88.5,
+          "y": 37.9286
+        },
+        {
+          "id": "C26",
+          "x": 88.5,
+          "y": 50.5714
+        },
+        {
+          "id": "C27",
+          "x": 88.5,
+          "y": 63.2143
+        },
+        {
+          "id": "C28",
+          "x": 88.5,
+          "y": 75.8571
+        },
+        {
+          "id": "C29",
+          "x": 88.5,
+          "y": 88.5
+        },
+        {
+          "id": "C30",
+          "x": 75.8571,
+          "y": 88.5
+        },
+        {
+          "id": "C31",
+          "x": 63.2143,
+          "y": 88.5
+        },
+        {
+          "id": "C32",
+          "x": 50.5714,
+          "y": 88.5
+        },
+        {
+          "id": "C33",
+          "x": 37.9286,
+          "y": 88.5
+        },
+        {
+          "id": "C34",
+          "x": 25.2857,
+          "y": 88.5
+        },
+        {
+          "id": "C35",
+          "x": 12.6429,
+          "y": 88.5
+        },
+        {
+          "id": "C36",
+          "x": 0.0,
+          "y": 88.5
+        },
+        {
+          "id": "C37",
+          "x": -12.6429,
+          "y": 88.5
+        },
+        {
+          "id": "C38",
+          "x": -25.2857,
+          "y": 88.5
+        },
+        {
+          "id": "C39",
+          "x": -37.9286,
+          "y": 88.5
+        },
+        {
+          "id": "C40",
+          "x": -50.5714,
+          "y": 88.5
+        },
+        {
+          "id": "C41",
+          "x": -63.2143,
+          "y": 88.5
+        },
+        {
+          "id": "C42",
+          "x": -75.8571,
+          "y": 88.5
+        },
+        {
+          "id": "C43",
+          "x": -88.5,
+          "y": 88.5
+        },
+        {
+          "id": "C44",
+          "x": -88.5,
+          "y": 75.8571
+        },
+        {
+          "id": "C45",
+          "x": -88.5,
+          "y": 63.2143
+        },
+        {
+          "id": "C46",
+          "x": -88.5,
+          "y": 50.5714
+        },
+        {
+          "id": "C47",
+          "x": -88.5,
+          "y": 37.9286
+        },
+        {
+          "id": "C48",
+          "x": -88.5,
+          "y": 25.2857
+        },
+        {
+          "id": "C49",
+          "x": -88.5,
+          "y": 12.6429
+        },
+        {
+          "id": "C50",
+          "x": -88.5,
+          "y": 0.0
+        },
+        {
+          "id": "C51",
+          "x": -88.5,
+          "y": -12.6429
+        },
+        {
+          "id": "C52",
+          "x": -88.5,
+          "y": -25.2857
+        },
+        {
+          "id": "C53",
+          "x": -88.5,
+          "y": -37.9286
+        },
+        {
+          "id": "C54",
+          "x": -88.5,
+          "y": -50.5714
+        },
+        {
+          "id": "C55",
+          "x": -88.5,
+          "y": -63.2143
+        },
+        {
+          "id": "C56",
+          "x": -88.5,
+          "y": -75.8571
+        }
+      ],
+      "structural_elements": [
+        {
+          "id": "W1",
+          "type": "shear_wall",
+          "nodes": [
+            "S1",
+            "S2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 720.0
+          }
+        },
+        {
+          "id": "W2",
+          "type": "shear_wall",
+          "nodes": [
+            "S2",
+            "S3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 720.0
+          }
+        },
+        {
+          "id": "W3",
+          "type": "shear_wall",
+          "nodes": [
+            "S3",
+            "S4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 720.0
+          }
+        },
+        {
+          "id": "W4",
+          "type": "shear_wall",
+          "nodes": [
+            "S4",
+            "S1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-12in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 12,
+            "depth": 720.0
+          }
+        },
+        {
+          "id": "COL1",
+          "type": "column",
+          "nodes": [
+            "C1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL2",
+          "type": "column",
+          "nodes": [
+            "C2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL3",
+          "type": "column",
+          "nodes": [
+            "C3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL4",
+          "type": "column",
+          "nodes": [
+            "C4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL5",
+          "type": "column",
+          "nodes": [
+            "C5"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL6",
+          "type": "column",
+          "nodes": [
+            "C6"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL7",
+          "type": "column",
+          "nodes": [
+            "C7"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL8",
+          "type": "column",
+          "nodes": [
+            "C8"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL9",
+          "type": "column",
+          "nodes": [
+            "C9"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL10",
+          "type": "column",
+          "nodes": [
+            "C10"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL11",
+          "type": "column",
+          "nodes": [
+            "C11"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL12",
+          "type": "column",
+          "nodes": [
+            "C12"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL13",
+          "type": "column",
+          "nodes": [
+            "C13"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL14",
+          "type": "column",
+          "nodes": [
+            "C14"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL15",
+          "type": "column",
+          "nodes": [
+            "C15"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL16",
+          "type": "column",
+          "nodes": [
+            "C16"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL17",
+          "type": "column",
+          "nodes": [
+            "C17"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL18",
+          "type": "column",
+          "nodes": [
+            "C18"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL19",
+          "type": "column",
+          "nodes": [
+            "C19"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL20",
+          "type": "column",
+          "nodes": [
+            "C20"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL21",
+          "type": "column",
+          "nodes": [
+            "C21"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL22",
+          "type": "column",
+          "nodes": [
+            "C22"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL23",
+          "type": "column",
+          "nodes": [
+            "C23"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL24",
+          "type": "column",
+          "nodes": [
+            "C24"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL25",
+          "type": "column",
+          "nodes": [
+            "C25"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL26",
+          "type": "column",
+          "nodes": [
+            "C26"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL27",
+          "type": "column",
+          "nodes": [
+            "C27"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL28",
+          "type": "column",
+          "nodes": [
+            "C28"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL29",
+          "type": "column",
+          "nodes": [
+            "C29"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL30",
+          "type": "column",
+          "nodes": [
+            "C30"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL31",
+          "type": "column",
+          "nodes": [
+            "C31"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL32",
+          "type": "column",
+          "nodes": [
+            "C32"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL33",
+          "type": "column",
+          "nodes": [
+            "C33"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL34",
+          "type": "column",
+          "nodes": [
+            "C34"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL35",
+          "type": "column",
+          "nodes": [
+            "C35"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL36",
+          "type": "column",
+          "nodes": [
+            "C36"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL37",
+          "type": "column",
+          "nodes": [
+            "C37"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL38",
+          "type": "column",
+          "nodes": [
+            "C38"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL39",
+          "type": "column",
+          "nodes": [
+            "C39"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL40",
+          "type": "column",
+          "nodes": [
+            "C40"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL41",
+          "type": "column",
+          "nodes": [
+            "C41"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL42",
+          "type": "column",
+          "nodes": [
+            "C42"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL43",
+          "type": "column",
+          "nodes": [
+            "C43"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL44",
+          "type": "column",
+          "nodes": [
+            "C44"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL45",
+          "type": "column",
+          "nodes": [
+            "C45"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL46",
+          "type": "column",
+          "nodes": [
+            "C46"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL47",
+          "type": "column",
+          "nodes": [
+            "C47"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL48",
+          "type": "column",
+          "nodes": [
+            "C48"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL49",
+          "type": "column",
+          "nodes": [
+            "C49"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL50",
+          "type": "column",
+          "nodes": [
+            "C50"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL51",
+          "type": "column",
+          "nodes": [
+            "C51"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL52",
+          "type": "column",
+          "nodes": [
+            "C52"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL53",
+          "type": "column",
+          "nodes": [
+            "C53"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL54",
+          "type": "column",
+          "nodes": [
+            "C54"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL55",
+          "type": "column",
+          "nodes": [
+            "C55"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        },
+        {
+          "id": "COL56",
+          "type": "column",
+          "nodes": [
+            "C56"
+          ],
+          "material_name": "Concrete",
+          "section_name": "Column-36x36in",
+          "Fy": 4000,
+          "E": 3600000,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          }
+        }
+      ],
+      "floor_plate": {
+        "boundary_nodes": [
+          {
+            "id": "P1",
+            "x": -90.0,
+            "y": -90.0
+          },
+          {
+            "id": "P2",
+            "x": 90.0,
+            "y": -90.0
+          },
+          {
+            "id": "P3",
+            "x": 90.0,
+            "y": 90.0
+          },
+          {
+            "id": "P4",
+            "x": -90.0,
+            "y": 90.0
+          }
+        ],
+        "boundary_loop": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      }
+    }
+  }
+}
