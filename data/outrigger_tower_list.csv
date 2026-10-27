@@ -1,0 +1,6 @@
+﻿Name,Height (ft),Location,Program,Core A (ft),Core B (ft),Core Area (sqft),Aspect Ratio,Footprint A (ft),Footprint B (ft),Footprint Area (sqft),Floors,F2F,GFA (sqft)
+Tower A,1300,,Residential,70,70,4900,18.6,140,140,19600,110,11.8,2156000
+Tower B,1168,,Residential,60,60,3600,19.5,120,120,14400,100,11.7,1440000
+Tower C,1070,,Mixed Use,70,70,4900,15.3,140,140,19600,80,13.4,1568000
+Tower D,900,,Office,50,50,2500,18.0,100,100,10000,60,15.0,600000
+Tower E,1004,,Office,45,45,2025,22.3,90,90,8100,70,14.3,567000
