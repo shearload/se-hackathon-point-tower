@@ -296,7 +296,12 @@ def validate_output(data, expected_floors, expected_height, label):
 
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("input_csv", type=Path, help="CSV containing one tower per row")
+    parser.add_argument(
+        "input_csv",
+        type=Path,
+        metavar="INPUT_CSV",
+        help="required path to the .csv file containing one tower per row",
+    )
     parser.add_argument(
         "--output-dir", "-o", type=Path,
         help="directory for generated JSON files (default: <CSV directory>/tower_floorplate_json)",
@@ -307,6 +312,9 @@ def parse_args():
 def main():
     args = parse_args()
     input_csv = args.input_csv.expanduser().resolve()
+    if input_csv.suffix.lower() != ".csv":
+        print(f"error: input must be a .csv file: {input_csv}", file=sys.stderr)
+        return 2
     if not input_csv.is_file():
         print(f"error: input CSV not found: {input_csv}", file=sys.stderr)
         return 2
@@ -338,6 +346,7 @@ def main():
             prepared.append((name, filename, data))
 
         output_dir.mkdir(parents=True, exist_ok=True)
+        print(f"JSON output location: {output_dir}")
         for name, filename, data in prepared:
             path = output_dir / filename
             with path.open("w", encoding="utf-8", newline="\n") as json_file:

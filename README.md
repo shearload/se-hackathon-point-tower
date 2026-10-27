@@ -1,6 +1,8 @@
 # SE Hackathon Point Tower
 
-Generate one floorplate-format JSON file for each tower row in the CSV.
+Generate one floorplate-format JSON file for each tower row in the required
+`.csv` input file. The program prints the resolved JSON output directory and
+each output file path to the terminal.
 
 ## Generate tower JSON files
 
