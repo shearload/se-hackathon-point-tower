@@ -1,8 +1,26 @@
 # SE Hackathon Point Tower
 
-Generate one floorplate-format JSON file for each tower row in the required
-`.csv` input file. The program prints the resolved JSON output directory and
-each output file path to the terminal.
+The goal is a multi-step tower design workflow: generate tower geometry, analyze
+the building with OpenSees, then optimize outrigger placement using the analysis
+results.
+
+## Full program workflow
+
+1. **Generate tower geometry.** Read a required `.csv` tower list and write one
+   floorplate-format JSON file per tower. This is the implemented first step.
+2. **Build and analyze an OpenSees model.** Use each tower's geometry to create
+   a structural model, run the analysis, and extract design results such as
+   story drift and member strength or demand. A separate 500-ft OpenSeesPy model
+   prototype is documented under `models/500ft-option-a/`; it is not yet wired
+   to the CSV geometry generator.
+3. **Optimize outrigger floors.** Review drift and strength results, evaluate
+   candidate outrigger floor locations, add outriggers to the best-performing
+   configuration, and rerun the analysis to compare the results. This optimizer
+   and its integration with the generator and OpenSees model are future work.
+
+At present, only Step 1 is provided as the general CSV-driven program. The
+500-ft model is a separate analysis example; it does not yet implement the
+automated candidate-floor search described in Step 3.
 
 ## Generate tower JSON files
 
