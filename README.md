@@ -13,19 +13,22 @@ workflow, current implementation status, and limitations.
 
 1. **Generate tower geometry.** Read a required `.csv` tower list and write one
    floorplate-format JSON file per tower. This is the implemented first step.
-2. **Build and analyze an OpenSees model.** Use each tower's geometry to create
-   a structural model, run the analysis, and extract design results such as
-   story drift and member strength or demand. A separate 500-ft OpenSeesPy model
-   prototype is documented under `models/500ft-option-a/`; it is not yet wired
-   to the CSV geometry generator.
+2. **Build and analyze a structural model.** The Windows viewer can run the
+   external `Analysis.exe` module with a building JSON and load JSON, or load an
+   analysis results JSON directly. The viewer's result reader supports floor
+   responses and optimizer candidates. The analysis executable integration is
+   still being validated; the latest reported run exited with code 2. A separate
+   500-ft OpenSeesPy model prototype is documented under `models/500ft-option-a/`.
 3. **Optimize outrigger floors.** Review drift and strength results, evaluate
    candidate outrigger floor locations, add outriggers to the best-performing
-   configuration, and rerun the analysis to compare the results. This optimizer
-   and its integration with the generator and OpenSees model are future work.
+   configuration, and rerun the analysis to compare the results. The viewer can
+   inspect optimizer candidate results from JSON, but automated candidate search
+   and integration with the generator and analysis model remain future work.
 
-At present, only Step 1 is provided as the general CSV-driven program. The
-500-ft model is a separate analysis example; it does not yet implement the
-automated candidate-floor search described in Step 3.
+The CSV-driven geometry generator and Windows desktop viewer are available. The
+full automated generator-analysis-optimization workflow is not yet connected:
+the 500-ft model is a separate analysis example, and the viewer's external
+analysis-module integration is still being validated.
 
 ## Generate tower JSON files
 
@@ -61,6 +64,53 @@ python -m PyInstaller --onefile --name tower_floorplate_generator generate_tower
 
 The executable is created at `dist/tower_floorplate_generator.exe`. It accepts
 the same input CSV and `--output-dir` arguments as the Python script.
+
+## Windows desktop viewer
+
+`TowerFloorplateViewer/` contains a WPF desktop app that uses WebView2 to host a
+Three.js 3D viewer. It opens tower floorplate JSON, renders structural members
+and floor diaphragms, and provides plan/elevation/3D view controls for future
+editing workflows.
+
+The **Select Starting Values** button runs
+`EXEs/tower_floorplate_generator.exe` on a selected CSV. The generator prints an
+output folder; the viewer then asks you to choose a building JSON from that
+folder and loads it. **Open JSON…** loads an existing model directly.
+
+The **Import Loads JSON…** button runs `EXEs/LoadImporter.exe`. Load display mode
+shows global-X story force arrows and magnitude labels. **Load Results JSON…**
+opens an optimizer/analysis output such as
+[`optimizer_output.example.json`](optimizer_output.example.json), while **Run
+Analysis** invokes `EXEs/Analysis.exe` with the model and load inputs.
+
+The results selectors list the load cases and geometry candidates in the results
+file. The first candidate is paired with the loaded original model; later
+candidates use the optimizer floor types and candidate metadata. The current
+example provides floor-level `ux`, `uy`, and `rz` responses rather than finite
+element nodal displacements. Deformed view applies the nearest floor's rigid
+in-plane motion without interpolation and magnifies it 1000x for visibility.
+Displacement coloring derives node movement from those floor responses; story
+drift coloring uses the supplied drift values. Member DCR is not included in the
+example output.
+
+### Build and run
+
+Requirements: .NET 8 SDK to build and the Microsoft Edge WebView2 Evergreen
+Runtime on the machine running the app.
+
+```powershell
+cd TowerFloorplateViewer
+dotnet publish .\TowerFloorplateViewer.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
+```
+
+The viewer executable is written under
+`bin\Release\net8.0-windows\win-x64\publish\`. The external module EXEs are
+copied beside it in an `EXEs` folder. The WebView2 Evergreen Runtime remains a
+machine-level prerequisite. Generated `bin`, `obj`, and `publish-*` outputs are
+excluded from Git; build locally or distribute a published package separately.
+
+See [`TowerFloorplateViewer/README.md`](TowerFloorplateViewer/README.md) for
+details on the viewer's code layout, JSON conventions, and module contracts.
 
 ## 500 ft tower model
 
