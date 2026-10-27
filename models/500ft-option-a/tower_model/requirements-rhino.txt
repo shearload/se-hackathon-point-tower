@@ -1,0 +1,3 @@
+rhino3dm==8.35.0
+# Optional, only for make_truss_preview.py:
+pillow==13.0.0

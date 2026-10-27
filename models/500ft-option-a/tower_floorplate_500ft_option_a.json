@@ -1,0 +1,2702 @@
+{
+  "format_version": "1.0",
+  "units": {
+    "coordinates": "ft",
+    "floor_height": "ft",
+    "section_dimensions": "in",
+    "Fy": "psi",
+    "E": "psi"
+  },
+  "floor_sequence": [
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "B",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "C",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    },
+    {
+      "type": "A",
+      "floor_height": 12.5
+    }
+  ],
+  "floor_types": {
+    "A": {
+      "structural_nodes": [
+        {
+          "id": "S1",
+          "x": -14.125,
+          "y": -14.125
+        },
+        {
+          "id": "S2",
+          "x": 14.125,
+          "y": -14.125
+        },
+        {
+          "id": "S3",
+          "x": 14.125,
+          "y": 14.125
+        },
+        {
+          "id": "S4",
+          "x": -14.125,
+          "y": 14.125
+        },
+        {
+          "id": "F1",
+          "x": -15.625,
+          "y": -14.125
+        },
+        {
+          "id": "F2",
+          "x": 15.625,
+          "y": -14.125
+        },
+        {
+          "id": "F3",
+          "x": -15.625,
+          "y": 14.125
+        },
+        {
+          "id": "F4",
+          "x": 15.625,
+          "y": 14.125
+        },
+        {
+          "id": "F5",
+          "x": -14.125,
+          "y": -15.625
+        },
+        {
+          "id": "F6",
+          "x": -14.125,
+          "y": 15.625
+        },
+        {
+          "id": "F7",
+          "x": 14.125,
+          "y": -15.625
+        },
+        {
+          "id": "F8",
+          "x": 14.125,
+          "y": 15.625
+        },
+        {
+          "id": "C1",
+          "x": -110.45833333333333,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C2",
+          "x": -110.45833333333333,
+          "y": -78.34722222222223
+        },
+        {
+          "id": "C3",
+          "x": -110.45833333333333,
+          "y": -46.236111111111114
+        },
+        {
+          "id": "C4",
+          "x": -110.45833333333333,
+          "y": -14.125
+        },
+        {
+          "id": "C5",
+          "x": -110.45833333333333,
+          "y": 14.125
+        },
+        {
+          "id": "C6",
+          "x": -110.45833333333333,
+          "y": 46.23611111111111
+        },
+        {
+          "id": "C7",
+          "x": -110.45833333333333,
+          "y": 78.34722222222221
+        },
+        {
+          "id": "C8",
+          "x": -110.45833333333333,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C9",
+          "x": -78.34722222222223,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C10",
+          "x": -78.34722222222223,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C11",
+          "x": -46.236111111111114,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C12",
+          "x": -46.236111111111114,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C13",
+          "x": -14.125,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C14",
+          "x": -14.125,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C15",
+          "x": 14.125,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C16",
+          "x": 14.125,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C17",
+          "x": 46.23611111111111,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C18",
+          "x": 46.23611111111111,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C19",
+          "x": 78.34722222222221,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C20",
+          "x": 78.34722222222221,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C21",
+          "x": 110.45833333333333,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C22",
+          "x": 110.45833333333333,
+          "y": -78.34722222222223
+        },
+        {
+          "id": "C23",
+          "x": 110.45833333333333,
+          "y": -46.236111111111114
+        },
+        {
+          "id": "C24",
+          "x": 110.45833333333333,
+          "y": -14.125
+        },
+        {
+          "id": "C25",
+          "x": 110.45833333333333,
+          "y": 14.125
+        },
+        {
+          "id": "C26",
+          "x": 110.45833333333333,
+          "y": 46.23611111111111
+        },
+        {
+          "id": "C27",
+          "x": 110.45833333333333,
+          "y": 78.34722222222221
+        },
+        {
+          "id": "C28",
+          "x": 110.45833333333333,
+          "y": 110.45833333333333
+        }
+      ],
+      "structural_elements": [
+        {
+          "id": "W1",
+          "type": "shear_wall",
+          "nodes": [
+            "S1",
+            "S2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W2",
+          "type": "shear_wall",
+          "nodes": [
+            "S2",
+            "S3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W3",
+          "type": "shear_wall",
+          "nodes": [
+            "S3",
+            "S4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W4",
+          "type": "shear_wall",
+          "nodes": [
+            "S4",
+            "S1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "COL1",
+          "type": "column",
+          "nodes": [
+            "C1"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL2",
+          "type": "column",
+          "nodes": [
+            "C2"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL3",
+          "type": "column",
+          "nodes": [
+            "C3"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL4",
+          "type": "column",
+          "nodes": [
+            "C4"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL5",
+          "type": "column",
+          "nodes": [
+            "C5"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL6",
+          "type": "column",
+          "nodes": [
+            "C6"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL7",
+          "type": "column",
+          "nodes": [
+            "C7"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL8",
+          "type": "column",
+          "nodes": [
+            "C8"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL9",
+          "type": "column",
+          "nodes": [
+            "C9"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL10",
+          "type": "column",
+          "nodes": [
+            "C10"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL11",
+          "type": "column",
+          "nodes": [
+            "C11"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL12",
+          "type": "column",
+          "nodes": [
+            "C12"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL13",
+          "type": "column",
+          "nodes": [
+            "C13"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL14",
+          "type": "column",
+          "nodes": [
+            "C14"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL15",
+          "type": "column",
+          "nodes": [
+            "C15"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL16",
+          "type": "column",
+          "nodes": [
+            "C16"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL17",
+          "type": "column",
+          "nodes": [
+            "C17"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL18",
+          "type": "column",
+          "nodes": [
+            "C18"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL19",
+          "type": "column",
+          "nodes": [
+            "C19"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL20",
+          "type": "column",
+          "nodes": [
+            "C20"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL21",
+          "type": "column",
+          "nodes": [
+            "C21"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL22",
+          "type": "column",
+          "nodes": [
+            "C22"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL23",
+          "type": "column",
+          "nodes": [
+            "C23"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL24",
+          "type": "column",
+          "nodes": [
+            "C24"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL25",
+          "type": "column",
+          "nodes": [
+            "C25"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL26",
+          "type": "column",
+          "nodes": [
+            "C26"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL27",
+          "type": "column",
+          "nodes": [
+            "C27"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL28",
+          "type": "column",
+          "nodes": [
+            "C28"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        }
+      ],
+      "floor_plate": {
+        "boundary_nodes": [
+          {
+            "id": "P1",
+            "x": -110.45833333333333,
+            "y": -110.45833333333333
+          },
+          {
+            "id": "P2",
+            "x": 110.45833333333333,
+            "y": -110.45833333333333
+          },
+          {
+            "id": "P3",
+            "x": 110.45833333333333,
+            "y": 110.45833333333333
+          },
+          {
+            "id": "P4",
+            "x": -110.45833333333333,
+            "y": 110.45833333333333
+          }
+        ],
+        "boundary_loop": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      }
+    },
+    "B": {
+      "structural_nodes": [
+        {
+          "id": "S1",
+          "x": -14.125,
+          "y": -14.125
+        },
+        {
+          "id": "S2",
+          "x": 14.125,
+          "y": -14.125
+        },
+        {
+          "id": "S3",
+          "x": 14.125,
+          "y": 14.125
+        },
+        {
+          "id": "S4",
+          "x": -14.125,
+          "y": 14.125
+        },
+        {
+          "id": "F1",
+          "x": -15.625,
+          "y": -14.125
+        },
+        {
+          "id": "F2",
+          "x": 15.625,
+          "y": -14.125
+        },
+        {
+          "id": "F3",
+          "x": -15.625,
+          "y": 14.125
+        },
+        {
+          "id": "F4",
+          "x": 15.625,
+          "y": 14.125
+        },
+        {
+          "id": "F5",
+          "x": -14.125,
+          "y": -15.625
+        },
+        {
+          "id": "F6",
+          "x": -14.125,
+          "y": 15.625
+        },
+        {
+          "id": "F7",
+          "x": 14.125,
+          "y": -15.625
+        },
+        {
+          "id": "F8",
+          "x": 14.125,
+          "y": 15.625
+        },
+        {
+          "id": "C1",
+          "x": -110.45833333333333,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C2",
+          "x": -110.45833333333333,
+          "y": -78.34722222222223
+        },
+        {
+          "id": "C3",
+          "x": -110.45833333333333,
+          "y": -46.236111111111114
+        },
+        {
+          "id": "C4",
+          "x": -110.45833333333333,
+          "y": -14.125
+        },
+        {
+          "id": "C5",
+          "x": -110.45833333333333,
+          "y": 14.125
+        },
+        {
+          "id": "C6",
+          "x": -110.45833333333333,
+          "y": 46.23611111111111
+        },
+        {
+          "id": "C7",
+          "x": -110.45833333333333,
+          "y": 78.34722222222221
+        },
+        {
+          "id": "C8",
+          "x": -110.45833333333333,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C9",
+          "x": -78.34722222222223,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C10",
+          "x": -78.34722222222223,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C11",
+          "x": -46.236111111111114,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C12",
+          "x": -46.236111111111114,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C13",
+          "x": -14.125,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C14",
+          "x": -14.125,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C15",
+          "x": 14.125,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C16",
+          "x": 14.125,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C17",
+          "x": 46.23611111111111,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C18",
+          "x": 46.23611111111111,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C19",
+          "x": 78.34722222222221,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C20",
+          "x": 78.34722222222221,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C21",
+          "x": 110.45833333333333,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C22",
+          "x": 110.45833333333333,
+          "y": -78.34722222222223
+        },
+        {
+          "id": "C23",
+          "x": 110.45833333333333,
+          "y": -46.236111111111114
+        },
+        {
+          "id": "C24",
+          "x": 110.45833333333333,
+          "y": -14.125
+        },
+        {
+          "id": "C25",
+          "x": 110.45833333333333,
+          "y": 14.125
+        },
+        {
+          "id": "C26",
+          "x": 110.45833333333333,
+          "y": 46.23611111111111
+        },
+        {
+          "id": "C27",
+          "x": 110.45833333333333,
+          "y": 78.34722222222221
+        },
+        {
+          "id": "C28",
+          "x": 110.45833333333333,
+          "y": 110.45833333333333
+        }
+      ],
+      "structural_elements": [
+        {
+          "id": "W1",
+          "type": "shear_wall",
+          "nodes": [
+            "S1",
+            "S2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W2",
+          "type": "shear_wall",
+          "nodes": [
+            "S2",
+            "S3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W3",
+          "type": "shear_wall",
+          "nodes": [
+            "S3",
+            "S4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W4",
+          "type": "shear_wall",
+          "nodes": [
+            "S4",
+            "S1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "X_T-1_S-1_BC",
+          "nodes": [
+            "F1",
+            "C4"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "X_T-1_S+1_BC",
+          "nodes": [
+            "F2",
+            "C24"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "X_T+1_S-1_BC",
+          "nodes": [
+            "F3",
+            "C5"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "X_T+1_S+1_BC",
+          "nodes": [
+            "F4",
+            "C25"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T-1_S-1_BC",
+          "nodes": [
+            "F5",
+            "C13"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T-1_S+1_BC",
+          "nodes": [
+            "F6",
+            "C14"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T+1_S-1_BC",
+          "nodes": [
+            "F7",
+            "C15"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T+1_S+1_BC",
+          "nodes": [
+            "F8",
+            "C16"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "COL1",
+          "type": "column",
+          "nodes": [
+            "C1"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL2",
+          "type": "column",
+          "nodes": [
+            "C2"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL3",
+          "type": "column",
+          "nodes": [
+            "C3"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL4",
+          "type": "column",
+          "nodes": [
+            "C4"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL5",
+          "type": "column",
+          "nodes": [
+            "C5"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL6",
+          "type": "column",
+          "nodes": [
+            "C6"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL7",
+          "type": "column",
+          "nodes": [
+            "C7"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL8",
+          "type": "column",
+          "nodes": [
+            "C8"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL9",
+          "type": "column",
+          "nodes": [
+            "C9"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL10",
+          "type": "column",
+          "nodes": [
+            "C10"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL11",
+          "type": "column",
+          "nodes": [
+            "C11"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL12",
+          "type": "column",
+          "nodes": [
+            "C12"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL13",
+          "type": "column",
+          "nodes": [
+            "C13"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL14",
+          "type": "column",
+          "nodes": [
+            "C14"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL15",
+          "type": "column",
+          "nodes": [
+            "C15"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL16",
+          "type": "column",
+          "nodes": [
+            "C16"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL17",
+          "type": "column",
+          "nodes": [
+            "C17"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL18",
+          "type": "column",
+          "nodes": [
+            "C18"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL19",
+          "type": "column",
+          "nodes": [
+            "C19"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL20",
+          "type": "column",
+          "nodes": [
+            "C20"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL21",
+          "type": "column",
+          "nodes": [
+            "C21"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL22",
+          "type": "column",
+          "nodes": [
+            "C22"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL23",
+          "type": "column",
+          "nodes": [
+            "C23"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL24",
+          "type": "column",
+          "nodes": [
+            "C24"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL25",
+          "type": "column",
+          "nodes": [
+            "C25"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL26",
+          "type": "column",
+          "nodes": [
+            "C26"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL27",
+          "type": "column",
+          "nodes": [
+            "C27"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL28",
+          "type": "column",
+          "nodes": [
+            "C28"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        }
+      ],
+      "floor_plate": {
+        "boundary_nodes": [
+          {
+            "id": "P1",
+            "x": -110.45833333333333,
+            "y": -110.45833333333333
+          },
+          {
+            "id": "P2",
+            "x": 110.45833333333333,
+            "y": -110.45833333333333
+          },
+          {
+            "id": "P3",
+            "x": 110.45833333333333,
+            "y": 110.45833333333333
+          },
+          {
+            "id": "P4",
+            "x": -110.45833333333333,
+            "y": 110.45833333333333
+          }
+        ],
+        "boundary_loop": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      }
+    },
+    "C": {
+      "structural_nodes": [
+        {
+          "id": "S1",
+          "x": -14.125,
+          "y": -14.125
+        },
+        {
+          "id": "S2",
+          "x": 14.125,
+          "y": -14.125
+        },
+        {
+          "id": "S3",
+          "x": 14.125,
+          "y": 14.125
+        },
+        {
+          "id": "S4",
+          "x": -14.125,
+          "y": 14.125
+        },
+        {
+          "id": "F1",
+          "x": -15.625,
+          "y": -14.125
+        },
+        {
+          "id": "F2",
+          "x": 15.625,
+          "y": -14.125
+        },
+        {
+          "id": "F3",
+          "x": -15.625,
+          "y": 14.125
+        },
+        {
+          "id": "F4",
+          "x": 15.625,
+          "y": 14.125
+        },
+        {
+          "id": "F5",
+          "x": -14.125,
+          "y": -15.625
+        },
+        {
+          "id": "F6",
+          "x": -14.125,
+          "y": 15.625
+        },
+        {
+          "id": "F7",
+          "x": 14.125,
+          "y": -15.625
+        },
+        {
+          "id": "F8",
+          "x": 14.125,
+          "y": 15.625
+        },
+        {
+          "id": "C1",
+          "x": -110.45833333333333,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C2",
+          "x": -110.45833333333333,
+          "y": -78.34722222222223
+        },
+        {
+          "id": "C3",
+          "x": -110.45833333333333,
+          "y": -46.236111111111114
+        },
+        {
+          "id": "C4",
+          "x": -110.45833333333333,
+          "y": -14.125
+        },
+        {
+          "id": "C5",
+          "x": -110.45833333333333,
+          "y": 14.125
+        },
+        {
+          "id": "C6",
+          "x": -110.45833333333333,
+          "y": 46.23611111111111
+        },
+        {
+          "id": "C7",
+          "x": -110.45833333333333,
+          "y": 78.34722222222221
+        },
+        {
+          "id": "C8",
+          "x": -110.45833333333333,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C9",
+          "x": -78.34722222222223,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C10",
+          "x": -78.34722222222223,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C11",
+          "x": -46.236111111111114,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C12",
+          "x": -46.236111111111114,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C13",
+          "x": -14.125,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C14",
+          "x": -14.125,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C15",
+          "x": 14.125,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C16",
+          "x": 14.125,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C17",
+          "x": 46.23611111111111,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C18",
+          "x": 46.23611111111111,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C19",
+          "x": 78.34722222222221,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C20",
+          "x": 78.34722222222221,
+          "y": 110.45833333333333
+        },
+        {
+          "id": "C21",
+          "x": 110.45833333333333,
+          "y": -110.45833333333333
+        },
+        {
+          "id": "C22",
+          "x": 110.45833333333333,
+          "y": -78.34722222222223
+        },
+        {
+          "id": "C23",
+          "x": 110.45833333333333,
+          "y": -46.236111111111114
+        },
+        {
+          "id": "C24",
+          "x": 110.45833333333333,
+          "y": -14.125
+        },
+        {
+          "id": "C25",
+          "x": 110.45833333333333,
+          "y": 14.125
+        },
+        {
+          "id": "C26",
+          "x": 110.45833333333333,
+          "y": 46.23611111111111
+        },
+        {
+          "id": "C27",
+          "x": 110.45833333333333,
+          "y": 78.34722222222221
+        },
+        {
+          "id": "C28",
+          "x": 110.45833333333333,
+          "y": 110.45833333333333
+        }
+      ],
+      "structural_elements": [
+        {
+          "id": "W1",
+          "type": "shear_wall",
+          "nodes": [
+            "S1",
+            "S2"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W2",
+          "type": "shear_wall",
+          "nodes": [
+            "S2",
+            "S3"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W3",
+          "type": "shear_wall",
+          "nodes": [
+            "S3",
+            "S4"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "W4",
+          "type": "shear_wall",
+          "nodes": [
+            "S4",
+            "S1"
+          ],
+          "material_name": "Concrete",
+          "section_name": "CoreWall-36in-339inCL",
+          "Fy": 8000.0,
+          "E": 5098234.988699521,
+          "poisson_ratio": 0.2,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 339.0
+          }
+        },
+        {
+          "id": "X_T-1_S-1_TC",
+          "nodes": [
+            "F1",
+            "C4"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "X_T-1_S+1_TC",
+          "nodes": [
+            "F2",
+            "C24"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "X_T+1_S-1_TC",
+          "nodes": [
+            "F3",
+            "C5"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "X_T+1_S+1_TC",
+          "nodes": [
+            "F4",
+            "C25"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T-1_S-1_TC",
+          "nodes": [
+            "F5",
+            "C13"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T-1_S+1_TC",
+          "nodes": [
+            "F6",
+            "C14"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T+1_S-1_TC",
+          "nodes": [
+            "F7",
+            "C15"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "Y_T+1_S+1_TC",
+          "nodes": [
+            "F8",
+            "C16"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000,
+          "E": 29000000,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36,
+            "depth": 36
+          },
+          "type": "outrigger"
+        },
+        {
+          "id": "COL1",
+          "type": "column",
+          "nodes": [
+            "C1"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL2",
+          "type": "column",
+          "nodes": [
+            "C2"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL3",
+          "type": "column",
+          "nodes": [
+            "C3"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL4",
+          "type": "column",
+          "nodes": [
+            "C4"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL5",
+          "type": "column",
+          "nodes": [
+            "C5"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL6",
+          "type": "column",
+          "nodes": [
+            "C6"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL7",
+          "type": "column",
+          "nodes": [
+            "C7"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL8",
+          "type": "column",
+          "nodes": [
+            "C8"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL9",
+          "type": "column",
+          "nodes": [
+            "C9"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL10",
+          "type": "column",
+          "nodes": [
+            "C10"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL11",
+          "type": "column",
+          "nodes": [
+            "C11"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL12",
+          "type": "column",
+          "nodes": [
+            "C12"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL13",
+          "type": "column",
+          "nodes": [
+            "C13"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL14",
+          "type": "column",
+          "nodes": [
+            "C14"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL15",
+          "type": "column",
+          "nodes": [
+            "C15"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL16",
+          "type": "column",
+          "nodes": [
+            "C16"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL17",
+          "type": "column",
+          "nodes": [
+            "C17"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL18",
+          "type": "column",
+          "nodes": [
+            "C18"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL19",
+          "type": "column",
+          "nodes": [
+            "C19"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL20",
+          "type": "column",
+          "nodes": [
+            "C20"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL21",
+          "type": "column",
+          "nodes": [
+            "C21"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL22",
+          "type": "column",
+          "nodes": [
+            "C22"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL23",
+          "type": "column",
+          "nodes": [
+            "C23"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL24",
+          "type": "column",
+          "nodes": [
+            "C24"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL25",
+          "type": "column",
+          "nodes": [
+            "C25"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL26",
+          "type": "column",
+          "nodes": [
+            "C26"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL27",
+          "type": "column",
+          "nodes": [
+            "C27"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        },
+        {
+          "id": "COL28",
+          "type": "column",
+          "nodes": [
+            "C28"
+          ],
+          "material_name": "Steel",
+          "section_name": "SolidSquare-36x36in",
+          "Fy": 50000.0,
+          "E": 29000000.0,
+          "poisson_ratio": 0.3,
+          "section_dims": {
+            "width": 36.0,
+            "depth": 36.0
+          }
+        }
+      ],
+      "floor_plate": {
+        "boundary_nodes": [
+          {
+            "id": "P1",
+            "x": -110.45833333333333,
+            "y": -110.45833333333333
+          },
+          {
+            "id": "P2",
+            "x": 110.45833333333333,
+            "y": -110.45833333333333
+          },
+          {
+            "id": "P3",
+            "x": 110.45833333333333,
+            "y": 110.45833333333333
+          },
+          {
+            "id": "P4",
+            "x": -110.45833333333333,
+            "y": 110.45833333333333
+          }
+        ],
+        "boundary_loop": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      }
+    }
+  }
+}

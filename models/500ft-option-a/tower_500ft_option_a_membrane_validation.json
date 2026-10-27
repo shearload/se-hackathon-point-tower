@@ -1,0 +1,17 @@
+{
+  "file": "tower_500ft_option_a_membrane.3dm",
+  "units": "feet",
+  "valid_closed_solids": 1328,
+  "analytical_floor_meshes": 40,
+  "analytical_elements": 12800,
+  "elements_per_floor": 320,
+  "nodes_per_floor": 360,
+  "column_count": 28,
+  "outrigger_columns": 8,
+  "central_bay_center_to_center_ft": 28.25,
+  "clear_between_column_faces_ft": 25.25,
+  "mesh_layer_initially_hidden": true,
+  "mesh_layer": "10 Coarse analytical floor mesh - toggle visibility",
+  "geometry_validity": "Reopened 3DM; all geometry valid, all structural Breps closed.",
+  "refinement_status": "not run; stopped by user"
+}

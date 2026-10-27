@@ -1,0 +1,3 @@
+# Environment used for the recorded validation: Windows, CPython 3.12.13
+openseespy==3.8.0.0
+openseespywin==3.8.0.0; platform_system == "Windows"

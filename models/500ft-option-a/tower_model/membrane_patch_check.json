@@ -1,0 +1,9 @@
+{
+  "element": "ShellMITC4",
+  "membrane_only": true,
+  "solver": "UmfPack",
+  "axial_patch_reaction_kip": 320.0,
+  "expected_reaction_kip": 320.0,
+  "poisson_contraction_in": -0.002,
+  "expected_contraction_in": -0.002
+}

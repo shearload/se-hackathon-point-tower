@@ -1,0 +1,1449 @@
+{
+  "format_version": "tower_truss_3d_1.0",
+  "units": {
+    "coordinates": "ft",
+    "section_dimensions": "in",
+    "Fy": "psi",
+    "E": "psi"
+  },
+  "floorplate_file": "tower_floorplate_500ft_option_a.json",
+  "description": "500-ft tower; paired steel X-braced outriggers aligned to core wall ends; 8 arms in 4 planes; 325-350 ft; 18-in solid-square diagonals, 36-in solid-square chords; steel Fy=50 ksi. Connected central joints. 28 columns total per Option A; eight wall-aligned outrigger columns retained, no face-center columns. Conceptual connections without fabrication detailing. Sizes remain placeholders.",
+  "analysis_idealization": {
+    "member_type": "pin-jointed axial truss",
+    "crossing_out_of_plane_restraint": true,
+    "core": "equivalent elastic closed-box spine",
+    "column_vertical_member": "existing column; do not add duplicate outer truss vertical"
+  },
+  "arms": [
+    {
+      "id": "X_T-1_S-1",
+      "axis": "X",
+      "transverse_coordinate_ft": -14.125,
+      "core_wall": "W1",
+      "core_face_xy_ft": [
+        -15.625,
+        -14.125
+      ],
+      "column_node_id": "C4",
+      "column_element_id": "COL4",
+      "column_xy_ft": [
+        -110.45833333333333,
+        -14.125
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    },
+    {
+      "id": "X_T-1_S+1",
+      "axis": "X",
+      "transverse_coordinate_ft": -14.125,
+      "core_wall": "W1",
+      "core_face_xy_ft": [
+        15.625,
+        -14.125
+      ],
+      "column_node_id": "C24",
+      "column_element_id": "COL24",
+      "column_xy_ft": [
+        110.45833333333333,
+        -14.125
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    },
+    {
+      "id": "X_T+1_S-1",
+      "axis": "X",
+      "transverse_coordinate_ft": 14.125,
+      "core_wall": "W3",
+      "core_face_xy_ft": [
+        -15.625,
+        14.125
+      ],
+      "column_node_id": "C5",
+      "column_element_id": "COL5",
+      "column_xy_ft": [
+        -110.45833333333333,
+        14.125
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    },
+    {
+      "id": "X_T+1_S+1",
+      "axis": "X",
+      "transverse_coordinate_ft": 14.125,
+      "core_wall": "W3",
+      "core_face_xy_ft": [
+        15.625,
+        14.125
+      ],
+      "column_node_id": "C25",
+      "column_element_id": "COL25",
+      "column_xy_ft": [
+        110.45833333333333,
+        14.125
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    },
+    {
+      "id": "Y_T-1_S-1",
+      "axis": "Y",
+      "transverse_coordinate_ft": -14.125,
+      "core_wall": "W4",
+      "core_face_xy_ft": [
+        -14.125,
+        -15.625
+      ],
+      "column_node_id": "C13",
+      "column_element_id": "COL13",
+      "column_xy_ft": [
+        -14.125,
+        -110.45833333333333
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    },
+    {
+      "id": "Y_T-1_S+1",
+      "axis": "Y",
+      "transverse_coordinate_ft": -14.125,
+      "core_wall": "W4",
+      "core_face_xy_ft": [
+        -14.125,
+        15.625
+      ],
+      "column_node_id": "C14",
+      "column_element_id": "COL14",
+      "column_xy_ft": [
+        -14.125,
+        110.45833333333333
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    },
+    {
+      "id": "Y_T+1_S-1",
+      "axis": "Y",
+      "transverse_coordinate_ft": 14.125,
+      "core_wall": "W2",
+      "core_face_xy_ft": [
+        14.125,
+        -15.625
+      ],
+      "column_node_id": "C15",
+      "column_element_id": "COL15",
+      "column_xy_ft": [
+        14.125,
+        -110.45833333333333
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    },
+    {
+      "id": "Y_T+1_S+1",
+      "axis": "Y",
+      "transverse_coordinate_ft": 14.125,
+      "core_wall": "W2",
+      "core_face_xy_ft": [
+        14.125,
+        15.625
+      ],
+      "column_node_id": "C16",
+      "column_element_id": "COL16",
+      "column_xy_ft": [
+        14.125,
+        110.45833333333333
+      ],
+      "bottom_floor": 26,
+      "top_floor": 28
+    }
+  ],
+  "nodes": [
+    {
+      "id": "X_T-1_S-1_RB",
+      "x": -15.625,
+      "y": -14.125,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "X_T-1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S-1_RT",
+      "x": -15.625,
+      "y": -14.125,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "X_T-1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S-1_CB",
+      "x": -110.45833333333333,
+      "y": -14.125,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "X_T-1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S-1_CT",
+      "x": -110.45833333333333,
+      "y": -14.125,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "X_T-1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S-1_M",
+      "x": -63.041666666666664,
+      "y": -14.125,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "X_T-1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S+1_RB",
+      "x": 15.625,
+      "y": -14.125,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "X_T-1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S+1_RT",
+      "x": 15.625,
+      "y": -14.125,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "X_T-1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S+1_CB",
+      "x": 110.45833333333333,
+      "y": -14.125,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "X_T-1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S+1_CT",
+      "x": 110.45833333333333,
+      "y": -14.125,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "X_T-1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T-1_S+1_M",
+      "x": 63.041666666666664,
+      "y": -14.125,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "X_T-1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S-1_RB",
+      "x": -15.625,
+      "y": 14.125,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "X_T+1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S-1_RT",
+      "x": -15.625,
+      "y": 14.125,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "X_T+1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S-1_CB",
+      "x": -110.45833333333333,
+      "y": 14.125,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "X_T+1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S-1_CT",
+      "x": -110.45833333333333,
+      "y": 14.125,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "X_T+1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S-1_M",
+      "x": -63.041666666666664,
+      "y": 14.125,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "X_T+1_S-1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S+1_RB",
+      "x": 15.625,
+      "y": 14.125,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "X_T+1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S+1_RT",
+      "x": 15.625,
+      "y": 14.125,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "X_T+1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S+1_CB",
+      "x": 110.45833333333333,
+      "y": 14.125,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "X_T+1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S+1_CT",
+      "x": 110.45833333333333,
+      "y": 14.125,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "X_T+1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "X_T+1_S+1_M",
+      "x": 63.041666666666664,
+      "y": 14.125,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "X_T+1_S+1",
+      "plane_axis": "X"
+    },
+    {
+      "id": "Y_T-1_S-1_RB",
+      "x": -14.125,
+      "y": -15.625,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "Y_T-1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S-1_RT",
+      "x": -14.125,
+      "y": -15.625,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "Y_T-1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S-1_CB",
+      "x": -14.125,
+      "y": -110.45833333333333,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "Y_T-1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S-1_CT",
+      "x": -14.125,
+      "y": -110.45833333333333,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "Y_T-1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S-1_M",
+      "x": -14.125,
+      "y": -63.041666666666664,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "Y_T-1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S+1_RB",
+      "x": -14.125,
+      "y": 15.625,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "Y_T-1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S+1_RT",
+      "x": -14.125,
+      "y": 15.625,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "Y_T-1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S+1_CB",
+      "x": -14.125,
+      "y": 110.45833333333333,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "Y_T-1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S+1_CT",
+      "x": -14.125,
+      "y": 110.45833333333333,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "Y_T-1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T-1_S+1_M",
+      "x": -14.125,
+      "y": 63.041666666666664,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "Y_T-1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S-1_RB",
+      "x": 14.125,
+      "y": -15.625,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "Y_T+1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S-1_RT",
+      "x": 14.125,
+      "y": -15.625,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "Y_T+1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S-1_CB",
+      "x": 14.125,
+      "y": -110.45833333333333,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "Y_T+1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S-1_CT",
+      "x": 14.125,
+      "y": -110.45833333333333,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "Y_T+1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S-1_M",
+      "x": 14.125,
+      "y": -63.041666666666664,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "Y_T+1_S-1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S+1_RB",
+      "x": 14.125,
+      "y": 15.625,
+      "z": 325,
+      "role": "wall_attachment",
+      "arm_id": "Y_T+1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S+1_RT",
+      "x": 14.125,
+      "y": 15.625,
+      "z": 350,
+      "role": "wall_attachment",
+      "arm_id": "Y_T+1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S+1_CB",
+      "x": 14.125,
+      "y": 110.45833333333333,
+      "z": 325,
+      "role": "column_attachment",
+      "arm_id": "Y_T+1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S+1_CT",
+      "x": 14.125,
+      "y": 110.45833333333333,
+      "z": 350,
+      "role": "column_attachment",
+      "arm_id": "Y_T+1_S+1",
+      "plane_axis": "Y"
+    },
+    {
+      "id": "Y_T+1_S+1_M",
+      "x": 14.125,
+      "y": 63.041666666666664,
+      "z": 337.5,
+      "role": "crossing",
+      "arm_id": "Y_T+1_S+1",
+      "plane_axis": "Y"
+    }
+  ],
+  "members": [
+    {
+      "id": "X_T-1_S-1_BC",
+      "role": "bottom_chord",
+      "arm_id": "X_T-1_S-1",
+      "nodes": [
+        "X_T-1_S-1_RB",
+        "X_T-1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S-1_TC",
+      "role": "top_chord",
+      "arm_id": "X_T-1_S-1",
+      "nodes": [
+        "X_T-1_S-1_RT",
+        "X_T-1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S-1_D1a",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S-1",
+      "nodes": [
+        "X_T-1_S-1_RB",
+        "X_T-1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S-1_D1b",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S-1",
+      "nodes": [
+        "X_T-1_S-1_M",
+        "X_T-1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S-1_D2a",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S-1",
+      "nodes": [
+        "X_T-1_S-1_RT",
+        "X_T-1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S-1_D2b",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S-1",
+      "nodes": [
+        "X_T-1_S-1_M",
+        "X_T-1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S+1_BC",
+      "role": "bottom_chord",
+      "arm_id": "X_T-1_S+1",
+      "nodes": [
+        "X_T-1_S+1_RB",
+        "X_T-1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S+1_TC",
+      "role": "top_chord",
+      "arm_id": "X_T-1_S+1",
+      "nodes": [
+        "X_T-1_S+1_RT",
+        "X_T-1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S+1_D1a",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S+1",
+      "nodes": [
+        "X_T-1_S+1_RB",
+        "X_T-1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S+1_D1b",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S+1",
+      "nodes": [
+        "X_T-1_S+1_M",
+        "X_T-1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S+1_D2a",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S+1",
+      "nodes": [
+        "X_T-1_S+1_RT",
+        "X_T-1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T-1_S+1_D2b",
+      "role": "diagonal",
+      "arm_id": "X_T-1_S+1",
+      "nodes": [
+        "X_T-1_S+1_M",
+        "X_T-1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S-1_BC",
+      "role": "bottom_chord",
+      "arm_id": "X_T+1_S-1",
+      "nodes": [
+        "X_T+1_S-1_RB",
+        "X_T+1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S-1_TC",
+      "role": "top_chord",
+      "arm_id": "X_T+1_S-1",
+      "nodes": [
+        "X_T+1_S-1_RT",
+        "X_T+1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S-1_D1a",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S-1",
+      "nodes": [
+        "X_T+1_S-1_RB",
+        "X_T+1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S-1_D1b",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S-1",
+      "nodes": [
+        "X_T+1_S-1_M",
+        "X_T+1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S-1_D2a",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S-1",
+      "nodes": [
+        "X_T+1_S-1_RT",
+        "X_T+1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S-1_D2b",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S-1",
+      "nodes": [
+        "X_T+1_S-1_M",
+        "X_T+1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S+1_BC",
+      "role": "bottom_chord",
+      "arm_id": "X_T+1_S+1",
+      "nodes": [
+        "X_T+1_S+1_RB",
+        "X_T+1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S+1_TC",
+      "role": "top_chord",
+      "arm_id": "X_T+1_S+1",
+      "nodes": [
+        "X_T+1_S+1_RT",
+        "X_T+1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S+1_D1a",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S+1",
+      "nodes": [
+        "X_T+1_S+1_RB",
+        "X_T+1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S+1_D1b",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S+1",
+      "nodes": [
+        "X_T+1_S+1_M",
+        "X_T+1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S+1_D2a",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S+1",
+      "nodes": [
+        "X_T+1_S+1_RT",
+        "X_T+1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "X_T+1_S+1_D2b",
+      "role": "diagonal",
+      "arm_id": "X_T+1_S+1",
+      "nodes": [
+        "X_T+1_S+1_M",
+        "X_T+1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S-1_BC",
+      "role": "bottom_chord",
+      "arm_id": "Y_T-1_S-1",
+      "nodes": [
+        "Y_T-1_S-1_RB",
+        "Y_T-1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S-1_TC",
+      "role": "top_chord",
+      "arm_id": "Y_T-1_S-1",
+      "nodes": [
+        "Y_T-1_S-1_RT",
+        "Y_T-1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S-1_D1a",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S-1",
+      "nodes": [
+        "Y_T-1_S-1_RB",
+        "Y_T-1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S-1_D1b",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S-1",
+      "nodes": [
+        "Y_T-1_S-1_M",
+        "Y_T-1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S-1_D2a",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S-1",
+      "nodes": [
+        "Y_T-1_S-1_RT",
+        "Y_T-1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S-1_D2b",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S-1",
+      "nodes": [
+        "Y_T-1_S-1_M",
+        "Y_T-1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S+1_BC",
+      "role": "bottom_chord",
+      "arm_id": "Y_T-1_S+1",
+      "nodes": [
+        "Y_T-1_S+1_RB",
+        "Y_T-1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S+1_TC",
+      "role": "top_chord",
+      "arm_id": "Y_T-1_S+1",
+      "nodes": [
+        "Y_T-1_S+1_RT",
+        "Y_T-1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S+1_D1a",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S+1",
+      "nodes": [
+        "Y_T-1_S+1_RB",
+        "Y_T-1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S+1_D1b",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S+1",
+      "nodes": [
+        "Y_T-1_S+1_M",
+        "Y_T-1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S+1_D2a",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S+1",
+      "nodes": [
+        "Y_T-1_S+1_RT",
+        "Y_T-1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T-1_S+1_D2b",
+      "role": "diagonal",
+      "arm_id": "Y_T-1_S+1",
+      "nodes": [
+        "Y_T-1_S+1_M",
+        "Y_T-1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S-1_BC",
+      "role": "bottom_chord",
+      "arm_id": "Y_T+1_S-1",
+      "nodes": [
+        "Y_T+1_S-1_RB",
+        "Y_T+1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S-1_TC",
+      "role": "top_chord",
+      "arm_id": "Y_T+1_S-1",
+      "nodes": [
+        "Y_T+1_S-1_RT",
+        "Y_T+1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S-1_D1a",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S-1",
+      "nodes": [
+        "Y_T+1_S-1_RB",
+        "Y_T+1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S-1_D1b",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S-1",
+      "nodes": [
+        "Y_T+1_S-1_M",
+        "Y_T+1_S-1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S-1_D2a",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S-1",
+      "nodes": [
+        "Y_T+1_S-1_RT",
+        "Y_T+1_S-1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S-1_D2b",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S-1",
+      "nodes": [
+        "Y_T+1_S-1_M",
+        "Y_T+1_S-1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S+1_BC",
+      "role": "bottom_chord",
+      "arm_id": "Y_T+1_S+1",
+      "nodes": [
+        "Y_T+1_S+1_RB",
+        "Y_T+1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S+1_TC",
+      "role": "top_chord",
+      "arm_id": "Y_T+1_S+1",
+      "nodes": [
+        "Y_T+1_S+1_RT",
+        "Y_T+1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-36x36in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 36,
+        "depth": 36
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S+1_D1a",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S+1",
+      "nodes": [
+        "Y_T+1_S+1_RB",
+        "Y_T+1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S+1_D1b",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S+1",
+      "nodes": [
+        "Y_T+1_S+1_M",
+        "Y_T+1_S+1_CT"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S+1_D2a",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S+1",
+      "nodes": [
+        "Y_T+1_S+1_RT",
+        "Y_T+1_S+1_M"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    },
+    {
+      "id": "Y_T+1_S+1_D2b",
+      "role": "diagonal",
+      "arm_id": "Y_T+1_S+1",
+      "nodes": [
+        "Y_T+1_S+1_M",
+        "Y_T+1_S+1_CB"
+      ],
+      "material_name": "Steel",
+      "section_name": "SolidSquare-18x18in",
+      "Fy": 50000,
+      "E": 29000000,
+      "poisson_ratio": 0.3,
+      "section_dims": {
+        "width": 18,
+        "depth": 18
+      },
+      "sizing_status": "placeholder; to be determined by analysis"
+    }
+  ],
+  "column_layout": {
+    "option": "A",
+    "total_columns": 28,
+    "outrigger_columns": 8,
+    "outer_bays_per_side_of_pair": 3,
+    "outer_bay_ft": 32.11111111111111,
+    "no_columns_between_outrigger_pairs": true,
+    "central_bay_center_to_center_ft": 28.25,
+    "central_clear_between_column_faces_ft": 25.25
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "artifact": "500ft-option-a",
+  "coarse_only": true,
+  "fine_mesh_status": "stopped by user; excluded from upload",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 45,
+      "sha256": "fa474c7b17f39693a5fbbd18719ead64ce0158860adb2f1278814a1cf7c98bf8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 45,
+      "sha256": "c453b2acfa7814fb6ab78729e56782b68953435c057d17e44c15c034a8526305"
+    },
+    {
+      "path": "HISTORY.md",
+      "bytes": 3368,
+      "sha256": "138681f313c30f43d9c86aaa31f60e631bcee4fde1d3b3bf070551ac0edaa49a"
+    },
+    {
+      "path": "INPUT_FORMATS.md",
+      "bytes": 6269,
+      "sha256": "49c39e67ebc59bbec1a21e67a2a2897612f859643e3e92fe56e23d8c72f381e2"
+    },
+    {
+      "path": "MODELING.md",
+      "bytes": 8022,
+      "sha256": "8923817084850b469eaa72365d5c1027dfaa13b6c5bd8e5d9685b7fefa151a7f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6983,
+      "sha256": "9bc610b5429cdecf4aa0e653b8ad02890ed3d6afbc862aeca5335ff958284133"
+    },
+    {
+      "path": "tower_500ft_option_a_membrane.3dm",
+      "bytes": 19994597,
+      "sha256": "67c7acb046326dc086c2cfb924c2a718adde9b32bca8c3766b718ea7568e3d56"
+    },
+    {
+      "path": "tower_500ft_option_a_membrane_validation.json",
+      "bytes": 604,
+      "sha256": "882e44284492e29564877d81466b654c86c6d2a03efbb7d993e0d368dc7c0ca2"
+    },
+    {
+      "path": "tower_500ft_option_a_mesh_preview.png",
+      "bytes": 127071,
+      "sha256": "0c3ebd1ee81d92a4a45d412b10e6088f62d7813d0653fcf7d93d62a426aed920"
+    },
+    {
+      "path": "tower_500ft_option_a_truss_assembly.json",
+      "bytes": 33765,
+      "sha256": "5bbd932913d2fbad3aa7c80f6219d3302cb913fd19fc6eec2c3b9d5aa91de931"
+    },
+    {
+      "path": "tower_floor_mesh_option_a_inputs.json",
+      "bytes": 1518,
+      "sha256": "0b90879f69b34c0f6f8b9256c1dc72a1631730e8f0db2cbef40c0393165fd16c"
+    },
+    {
+      "path": "tower_floorplate_500ft_option_a.json",
+      "bytes": 61341,
+      "sha256": "c177df8bfe74330688b8fc23523818f19e29a7853136964706356e169661747b"
+    },
+    {
+      "path": "tower_model/export_membrane_rhino.py",
+      "bytes": 4208,
+      "sha256": "d307efe9fe3145a4d19031cf93a59e38d3648587168535f50e7f8ff23ae3da9d"
+    },
+    {
+      "path": "tower_model/export_rhino.py",
+      "bytes": 11102,
+      "sha256": "16ed56af69d32dcb7f96b640d10fd6260b22110d492503aaf2796724ea84be29"
+    },
+    {
+      "path": "tower_model/local_truss.py",
+      "bytes": 13707,
+      "sha256": "6a358b775996272dae1ae0a493bd6aac06dfeda11746361416abc63fee7b8c10"
+    },
+    {
+      "path": "tower_model/membrane_floor.py",
+      "bytes": 3867,
+      "sha256": "510dad91a22170d56ad757743741f5381f792c923b187d2a34bfed462c70a854"
+    },
+    {
+      "path": "tower_model/membrane_patch_check.json",
+      "bytes": 222,
+      "sha256": "ff946673910f76c01abe48b739893a88b3611e7aeb1b938b8fe9e8bacdbb5e40"
+    },
+    {
+      "path": "tower_model/membrane_patch_check.py",
+      "bytes": 1624,
+      "sha256": "791e0b9a8a1dfa9d67d53003910bfecb72ea17bcf543851a9f06fa9f97046417"
+    },
+    {
+      "path": "tower_model/option_a_mesh_preview.py",
+      "bytes": 3535,
+      "sha256": "896d78cf86aea7fc43a9488ff84f026fc5caf2112eadd9858f46935960b49bd3"
+    },
+    {
+      "path": "tower_model/requirements-rhino.txt",
+      "bytes": 76,
+      "sha256": "fe523beac30f507d8e98ac1a06f8875716808d96c212d974e155a91f183f9baf"
+    },
+    {
+      "path": "tower_model/requirements-validated.txt",
+      "bytes": 146,
+      "sha256": "f0925e7b7918e98e4908aef940b6e7811ebf8252f79cfe2d654dd99c70bcf1d1"
+    },
+    {
+      "path": "tower_model/results_membrane/option_a/mesh_20ft/local_global_cut_comparison.csv",
+      "bytes": 24361,
+      "sha256": "30dbf1ae4e8ad1c60b8fb8041888d6ae9bd03a0860c7658b4d9e835a7d6aed23"
+    },
+    {
+      "path": "tower_model/results_membrane/option_a/mesh_20ft/member_envelopes.csv",
+      "bytes": 3404,
+      "sha256": "ead48860e168589a2364ad346f2d819c3f7562c22a8eb06402184a5f925bbd81"
+    },
+    {
+      "path": "tower_model/results_membrane/option_a/mesh_20ft/outriggers_X.csv",
+      "bytes": 2047,
+      "sha256": "ef6cdbdf5565504e7805aad4d297cf326c798d3dc615363f9a10dc875ba0e844"
+    },
+    {
+      "path": "tower_model/results_membrane/option_a/mesh_20ft/outriggers_X_reactions.csv",
+      "bytes": 3721,
+      "sha256": "2ae46c98b1606ac58a6d0c472004f33bf428432a8f8f7bebc0e0e2e8200a0c44"
+    },
+    {
+      "path": "tower_model/results_membrane/option_a/mesh_20ft/outriggers_Y.csv",
+      "bytes": 2056,
+      "sha256": "78fee58d527285478c296395a59213ab87edba46fe208d251b4b4d68accce927"
+    },
+    {
+      "path": "tower_model/results_membrane/option_a/mesh_20ft/outriggers_Y_reactions.csv",
+      "bytes": 3681,
+      "sha256": "ef6e2ae8931d951c01eaa3a0f51a797305e185abcd02d63b92f316ca96b453b1"
+    },
+    {
+      "path": "tower_model/results_membrane/option_a/mesh_20ft/summary.json",
+      "bytes": 87556,
+      "sha256": "cc4d58e525dee6d3802574fa957249a6eadaccde2ef5814394ed35fafe5013d7"
+    },
+    {
+      "path": "tower_model/tower.py",
+      "bytes": 14508,
+      "sha256": "758abd992d78d82282ece7931f239c22bf715a0f15cd5b1cde3d8896026c6ea3"
+    },
+    {
+      "path": "tower_model/tower_membrane.py",
+      "bytes": 8302,
+      "sha256": "0ad88e8f5d1f1003a548ac6486805261af6a8a3949576d98bd4ac136982946e0"
+    },
+    {
+      "path": "tower_model/verify_artifact.py",
+      "bytes": 2323,
+      "sha256": "f7e1c441c5a1d5dc8fe7a7d7bf3b66be94579763bb0b8f9db3c7597b1c47da7a"
+    }
+  ]
+}
