@@ -1,0 +1,14 @@
+{
+  "columns": ["Name", "Height (ft)", "City", "Program", "Base Footprint Dimensions (ft)", "Floors", "GFA (ft²)"],
+  "rows": [
+    {"Name": "Elite Residence", "Height (ft)": 1248, "City": "Dubai", "Program": "Residential", "Base Footprint Dimensions (ft)": "~148 ft square", "Floors": 87, "GFA (ft²)": 1507087},
+    {"Name": "Il Primo Tower", "Height (ft)": 1168, "City": "Dubai", "Program": "Residential", "Base Footprint Dimensions (ft)": "98 ft x 164 ft", "Floors": 79, "GFA (ft²)": 1073743},
+    {"Name": "The Index (Index Tower)", "Height (ft)": 1070, "City": "Dubai", "Program": "Mixed Use", "Base Footprint Dimensions (ft)": "361 ft x 82 ft", "Floors": 80, "GFA (ft²)": 1834170},
+    {"Name": "Ocean Heights", "Height (ft)": 1017, "City": "Dubai", "Program": "Residential", "Base Footprint Dimensions (ft)": "~131 ft square", "Floors": 83, "GFA (ft²)": 1220800},
+    {"Name": "Cayan Tower", "Height (ft)": 1004, "City": "Dubai", "Program": "Residential", "Base Footprint Dimensions (ft)": "~131 ft square", "Floors": 73, "GFA (ft²)": 1194794},
+    {"Name": "Almas Tower", "Height (ft)": 1181, "City": "Dubai", "Program": "Office", "Base Footprint Dimensions (ft)": "187 ft x 128 ft", "Floors": 68, "GFA (ft²)": 1722226},
+    {"Name": "Kingdom Center", "Height (ft)": 992, "City": "Riyadh", "Program": "Mixed Use", "Base Footprint Dimensions (ft)": "249 ft x 125 ft", "Floors": 41, "GFA (ft²)": 1991324},
+    {"Name": "Salesforce Tower", "Height (ft)": 1070, "City": "San Francisco", "Program": "Office", "Base Footprint Dimensions (ft)": "164 ft square", "Floors": 61, "GFA (ft²)": 1399308},
+    {"Name": "Hanking Center Tower", "Height (ft)": 1180, "City": "Schenzen", "Program": "Office", "Base Footprint Dimensions (ft)": "164 ft square", "Floors": 65, "GFA (ft²)": 1796131}
+  ]
+}
